@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "checkin": "체크인 안내",
+    "story": "소개",
+    "guide": "장가계 가이드"
+  },
+  "hero": {
+    "title": "옌위젠",
+    "subtitle": "장가계 · 모래그림 아트 호스텔",
+    "tagline": "돌과 캔버스 사이에서, 나만의 장가계를 발견하세요"
+  },
+  "checkin": {
+    "title": "체크인 안내",
+    "wifi_name": "Wi-Fi 이름",
+    "wifi_password": "Wi-Fi 비밀번호",
+    "checkin_time": "체크인 시간",
+    "checkout_time": "체크아웃 시간",
+    "curfew": "통금 시간",
+    "contact": "프런트 연락"
+  },
+  "story": {
+    "title": "옌위젠 소개",
+    "art_title": "모래그림 예술"
+  },
+  "guide": {
+    "title": "장가계 여행 가이드",
+    "attractions": "주요 명소",
+    "transport": "교통 안내",
+    "food": "먹거리",
+    "tips": "여행 팁",
+    "emergency": "긴급 연락처"
+  },
+  "taxi_card": {
+    "copy": "주소 복사 (택시 기사에게 보여주세요)",
+    "copied": "복사됨!"
+  }
+}

@@ -5,8 +5,8 @@ import { useRouter, usePathname } from 'next/navigation'
 const LOCALES = [
   { code: 'zh', label: '中文' },
   { code: 'en', label: 'EN' },
+  { code: 'ko', label: '한국어' },
   { code: 'ja', label: '日本語', disabled: true },
-  { code: 'ko', label: '한국어', disabled: true },
 ]
 
 export default function LanguageSwitcher() {
