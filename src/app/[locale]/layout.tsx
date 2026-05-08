@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Playfair_Display, Noto_Serif_SC } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
+import Navbar from '@/components/Navbar'
 import '../globals.css'
 
 const playfair = Playfair_Display({
@@ -34,8 +35,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="h-full antialiased">
-      <body className={`${playfair.variable} ${notoSerifSC.variable} h-full`}>
+      <body className={`${playfair.variable} ${notoSerifSC.variable} h-full pt-14`}>
         <NextIntlClientProvider messages={messages}>
+          <Navbar />
           {children}
         </NextIntlClientProvider>
       </body>
