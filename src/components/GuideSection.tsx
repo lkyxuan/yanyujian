@@ -13,7 +13,7 @@ export default function GuideSection() {
   const lang = locale === 'en' ? 'en' : locale === 'ko' ? 'ko' : locale === 'ja' ? 'ja' : 'zh'
 
   const tabs: { key: Tab; label: string; icon: string }[] = [
-    { key: 'attractions', label: t('attractions'), icon: '🏔️' },
+    { key: 'attractions', label: t('how_to_go'), icon: '🗺️' },
     { key: 'transport', label: t('transport'), icon: '🚕' },
     { key: 'food', label: t('food'), icon: '🍲' },
     { key: 'tips', label: t('tips'), icon: '💡' },
@@ -44,21 +44,42 @@ export default function GuideSection() {
           ))}
         </div>
 
-        {/* 核心景点 */}
+        {/* 目的地卡片：怎么去 */}
         {activeTab === 'attractions' && (
-          <div className="space-y-4">
-            {guideData.attractions.map((a) => (
-              <div key={a.nameEn} className="bg-linen rounded-2xl p-5 border border-sand/20">
-                <div className="flex items-start gap-3">
-                  <span className="text-3xl">{a.icon}</span>
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-serif font-bold text-stone text-base leading-snug">
-                      {(a as any)[`name${lang.charAt(0).toUpperCase() + lang.slice(1)}`] || a.nameZh}
-                    </h3>
-                    <p className="text-stone/50 text-xs mb-2">{lang === 'zh' ? a.nameEn : a.nameZh}</p>
-                    <p className="text-stone/70 text-sm leading-relaxed">{(a as any)[`desc${lang.charAt(0).toUpperCase() + lang.slice(1)}`] || a.descZh}</p>
-                    <p className="text-moss text-sm mt-2">💡 {(a.tips as any)[lang]}</p>
+          <div className="space-y-6">
+            {guideData.destinations.map((dest: any) => (
+              <div key={dest.nameEn} className="bg-linen rounded-2xl border border-sand/20 overflow-hidden">
+                {/* 景点标题 */}
+                <div className="p-5 pb-3">
+                  <div className="flex items-center gap-3 mb-1">
+                    <span className="text-3xl">{dest.icon}</span>
+                    <div>
+                      <h3 className="font-serif font-bold text-stone text-lg leading-tight">
+                        {dest[`name${lang.charAt(0).toUpperCase() + lang.slice(1)}`] || dest.nameZh}
+                      </h3>
+                      <p className="text-stone/40 text-xs">{lang === 'zh' ? dest.nameEn : dest.nameZh}</p>
+                    </div>
                   </div>
+                  <p className="text-stone/60 text-sm leading-relaxed">{dest.tagline[lang]}</p>
+                </div>
+
+                {/* 交通方式 */}
+                <div className="mx-5 mb-4 space-y-2">
+                  {dest.transport.map((t: any, i: number) => (
+                    <div key={i} className="bg-white/70 rounded-xl p-3 flex gap-3 items-start">
+                      <span className="text-lg flex-shrink-0 mt-0.5">{t.mode}</span>
+                      <div>
+                        <p className="font-medium text-stone text-sm">{t[`label${lang.charAt(0).toUpperCase() + lang.slice(1)}`]}</p>
+                        <p className="text-stone/60 text-xs leading-relaxed">{t[`detail${lang.charAt(0).toUpperCase() + lang.slice(1)}`]}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* 贴士 */}
+                <div className="mx-5 mb-5 flex gap-2 items-start text-moss text-xs">
+                  <span>💡</span>
+                  <p>{dest[`tip${lang.charAt(0).toUpperCase() + lang.slice(1)}`]}</p>
                 </div>
               </div>
             ))}

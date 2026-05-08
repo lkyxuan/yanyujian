@@ -3,6 +3,7 @@ import hotelInfo from '../../content/hotel-info.json'
 
 export const guideData = {
   transport: guideContent.transport,
+  destinations: (guideContent as any).destinations,
   attractions: guideContent.attractions.map((a) => ({
     ...a,
     tips: { zh: a.tipZh, en: a.tipEn, ko: a.tipKo, ja: (a as any).tipJa },
