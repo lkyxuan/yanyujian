@@ -45,23 +45,8 @@ export default function CheckinSection() {
           </div>
         </div>
 
-        {/* 房规列表 */}
-        <div className="bg-linen rounded-2xl p-5 mb-6 border border-sand/20">
-          <h3 className="font-serif text-lg text-stone mb-4">
-            {lang === 'en' ? 'House Rules' : lang === 'ko' ? '하우스 룰' : '温馨提示'}
-          </h3>
-          <ul className="space-y-3">
-            {checkinData.rules.map((rule, i) => (
-              <li key={i} className="flex items-center gap-3">
-                <span className="text-xl w-7 text-center flex-shrink-0">{rule.icon}</span>
-                <span className="text-stone/80 text-sm">{(rule as any)[lang]}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-
         {/* 联系方式 */}
-        <div className="bg-stone rounded-2xl p-5 text-center">
+        <div className="bg-stone rounded-2xl p-5 text-center mb-6">
           <p className="text-linen/60 text-sm mb-4">{t('contact')}</p>
 
           {/* 微信二维码 */}
@@ -85,6 +70,21 @@ export default function CheckinSection() {
             📞 {checkinData.contact.phone}
           </a>
           <p className="text-linen/40 text-xs">{t('contact_fallback')}</p>
+        </div>
+
+        {/* 房规列表 */}
+        <div className="bg-linen rounded-2xl p-5 mt-6 border border-sand/20">
+          <h3 className="font-serif text-lg text-stone mb-4">
+            {lang === 'en' ? 'House Rules' : lang === 'ko' ? '하우스 룰' : '温馨提示'}
+          </h3>
+          <ul className="space-y-3">
+            {checkinData.rules.map((rule, i) => (
+              <li key={i} className="flex items-center gap-3">
+                <span className="text-xl w-7 text-center flex-shrink-0">{rule.icon}</span>
+                <span className="text-stone/80 text-sm">{(rule as any)[lang]}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
