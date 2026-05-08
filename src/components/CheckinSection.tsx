@@ -12,18 +12,23 @@ export default function CheckinSection() {
       <div className="max-w-2xl mx-auto">
         <h2 className="font-serif text-3xl text-stone text-center mb-10">{t('title')}</h2>
 
-        {/* Wi-Fi + 时间：2列网格，手机友好 */}
-        <div className="grid grid-cols-2 gap-3 mb-6">
-          <div className="bg-linen rounded-2xl p-4 text-center border border-sand/20">
+        {/* Wi-Fi：全宽，名称和密码左右并排 */}
+        <div className="bg-linen rounded-2xl p-4 mb-3 border border-sand/20 flex items-center">
+          <div className="flex-1 text-center">
             <div className="text-2xl mb-1">📶</div>
             <p className="text-stone/50 text-xs mb-1">{t('wifi_name')}</p>
-            <p className="font-bold text-stone text-sm break-all">{checkinData.wifi.name}</p>
+            <p className="font-bold text-stone text-sm">{checkinData.wifi.name}</p>
           </div>
-          <div className="bg-linen rounded-2xl p-4 text-center border border-sand/20">
+          <div className="w-px h-14 bg-sand/20 mx-2" />
+          <div className="flex-1 text-center">
             <div className="text-2xl mb-1">🔐</div>
             <p className="text-stone/50 text-xs mb-1">{t('wifi_password')}</p>
-            <p className="font-bold text-stone text-sm">{checkinData.wifi.password}</p>
+            <p className="font-bold text-stone text-sm tracking-widest">{checkinData.wifi.password}</p>
           </div>
+        </div>
+
+        {/* 入退房时间：2列 */}
+        <div className="grid grid-cols-2 gap-3 mb-6">
           <div className="bg-linen rounded-2xl p-4 text-center border border-sand/20">
             <div className="text-2xl mb-1">🛏️</div>
             <p className="text-stone/50 text-xs mb-1">{t('checkin_time')}</p>
