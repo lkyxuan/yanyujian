@@ -70,15 +70,15 @@ export default function GuideSection() {
           <div className="space-y-5">
             <div className="bg-linen rounded-2xl p-5 border border-sand/20 space-y-4">
               <div>
-                <h3 className="font-bold text-stone text-sm mb-1">✈️ {lang === 'en' ? 'From Airport' : lang === 'ko' ? '공항에서' : '从机场'}</h3>
-                <p className="text-stone/70 text-sm">{(guideData.transport.fromAirport as any)[lang]}</p>
+                <h3 className="font-bold text-stone text-sm mb-1">🚌 {lang === 'en' ? 'Hostel → Central Bus Station' : lang === 'ko' ? '호스텔 → 시내버스터미널' : '岩语间 → 市中心汽车站'}</h3>
+                <p className="text-stone/70 text-sm">{(guideData.transport.toBusStation as any)[lang]}</p>
               </div>
               <div className="border-t border-sand/20 pt-4">
-                <h3 className="font-bold text-stone text-sm mb-1">🚄 {lang === 'en' ? 'From Train Station' : lang === 'ko' ? '기차역에서' : '从高铁站'}</h3>
-                <p className="text-stone/70 text-sm">{(guideData.transport.fromStation as any)[lang]}</p>
+                <h3 className="font-bold text-stone text-sm mb-2">🎫 {lang === 'en' ? 'Bus Routes to the Parks' : lang === 'ko' ? '공원행 버스 노선' : '班车线路'}</h3>
+                <p className="text-stone/70 text-sm whitespace-pre-line">{(guideData.transport.toBusSchedule as any)[lang]}</p>
               </div>
               <div className="border-t border-sand/20 pt-4">
-                <h3 className="font-bold text-stone text-sm mb-1">🚕 {lang === 'en' ? 'Taxi & DiDi' : lang === 'ko' ? '택시 & 디디' : '打车'}</h3>
+                <h3 className="font-bold text-stone text-sm mb-1">🚕 {lang === 'en' ? 'Taxi & DiDi' : lang === 'ko' ? '택시 & 디디' : '打车 / 滴滴'}</h3>
                 <p className="text-stone/70 text-sm">{(guideData.transport.taxiTips as any)[lang]}</p>
               </div>
             </div>

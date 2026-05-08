@@ -3,19 +3,29 @@
 
   "transport": {
     "fromAirport": {
-      "zh": "荷花机场→市区约 45 分钟，可乘机场巴士或打车。",
-      "en": "Hehua Airport to city center: ~45 min by airport shuttle or taxi.",
-      "ko": "허화 공항→시내 약 45분, 공항버스 또는 택시 이용 가능."
+      "zh": "荷花机场→市区约 45 分钟，可乘机场巴士或打车。如直奔景区，打的士前往森林公园南门约 30 公里 / 45 分钟，费用约 80–120 元。",
+      "en": "Hehua Airport to city center: ~45 min by airport shuttle or taxi. For a direct trip to the park, a taxi to the Forest Park South Gate is ~30 km / 45 min, around ¥80–120.",
+      "ko": "허화 공항→시내 약 45분, 공항버스 또는 택시. 공원 직행 시: 삼림공원 남문까지 택시 약 30km/45분, 요금 80~120위안."
     },
     "fromStation": {
-      "zh": "张家界西高铁站→市区约 20 分钟，乘地铁 1 号线或打车。",
-      "en": "Zhangjiajie West Railway Station to city: ~20 min by metro Line 1 or taxi.",
-      "ko": "장가계서역→시내 약 20분, 지하철 1호선 또는 택시."
+      "zh": "张家界西高铁站→市区约 20 分钟，乘地铁 1 号线或打车。如直奔景区，打的士前往森林公园南门约 30 公里 / 45 分钟，费用约 80–120 元；或至武陵源吴家峪口约 35 公里，费用相近。",
+      "en": "Zhangjiajie West Railway Station to city: ~20 min by metro Line 1 or taxi. For a direct trip, a taxi to Forest Park South Gate is ~30 km / 45 min, around ¥80–120; to Wulingyuan Wujiayukou Gate ~35 km, similar fare.",
+      "ko": "장가계서역→시내 약 20분, 지하철 1호선 또는 택시. 공원 직행 시: 삼림공원 남문 약 30km/45분, 80~120위안; 우링위안 우자위커우 문 약 35km, 비슷한 요금."
     },
     "taxiTips": {
       "zh": "推荐用滴滴打车，比路边出租更便宜，有英文界面。起步价 7 元。",
       "en": "Use DiDi (Chinese Uber) — cheaper than street taxis and has an English interface. Starting fare ¥7.",
       "ko": "디디추싱(중국판 우버) 이용을 추천합니다. 일반 택시보다 저렴하고 영어 인터페이스 제공. 기본요금 7위안."
+    },
+    "toBusStation": {
+      "zh": "岩语间步行至市中心汽车站（永定区子午路 2 号，奥莱广场旁）约 1.2 公里 / 15 分钟，打车约 5 分钟 / 6–8 元（起步价），或乘 1/2/6/7 路公交（1 元，2 站）。汽车站咨询电话：0744-8305599。",
+      "en": "From hostel to Central Bus Station (2 Ziwu Rd, near Aolai Plaza): walk ~1.2 km / 15 min, taxi ~5 min / ¥6–8, or bus 1/2/6/7 (¥1, 2 stops). Bus station hotline: 0744-8305599.",
+      "ko": "호스텔→시내버스터미널(쯔우로 2번지, 아오라이 광장 근처): 도보 약 1.2km/15분, 택시 약 5분/6~8위안, 또는 버스 1/2/6/7번(1위안, 2정거장). 버스터미널 문의: 0744-8305599."
+    },
+    "toBusSchedule": {
+      "zh": "线路1 → 森林公园门票站（南门·直达）\n10 分钟一班，首班 06:00 / 末班 18:30，票价 12 元，全程约 30 公里 / 45 分钟，直达门票站。\n\n线路2 → 武陵源景区汽车站（吴家峪口·袁家界方向）\n10 分钟一班，首班 06:00 / 末班 19:30，票价 13 元，全程约 35 公里 / 50 分钟；出站后步行或转 1/2 路公交（1 元）约 2 公里至吴家峪口门票站。\n\n线路3 → 中湖 / 天子山镇（杨家界·天子山方向）\n约一小时一班（按乘客多少灵活发车）。\n• 到杨家界门票站：在中湖下车，全程约 40 公里 / 1 小时 10 分，下车点距门票站约 2 公里，可步行或乘当地车辆。\n• 到天子山门票站：全程约 55 公里 / 1.5–2 小时；从天子山镇入园无需另付索道 / 电梯费，可直达天子山、杨家界、袁家界全区。",
+      "en": "Route 1 → Forest Park South Gate ticket station (direct)\nEvery 10 min, first 06:00 / last 18:30, ¥12/person, ~30 km / 45 min, drops off at the ticket gate.\n\nRoute 2 → Wulingyuan Bus Station (Wujiayukou Gate / Yuanjiajiee)\nEvery 10 min, first 06:00 / last 19:30, ¥13/person, ~35 km / 50 min; then walk or take bus 1/2 (¥1) ~2 km to Wujiayukou ticket gate.\n\nRoute 3 → Zhonghu / Tianzi Mountain Town (Yangjie & Tianzi Mountain)\nRoughly hourly (departs when enough passengers). \n• To Yangjie gate: get off at Zhonghu, ~40 km / 1h10min, then walk or take local transport ~2 km to the gate.\n• To Tianzi Mountain gate: ~55 km / 1.5–2 h; entering here avoids cable car / elevator fees and gives direct access to Tianzi Mountain, Yangjie, and Yuanjiajiee.",
+      "ko": "노선1 → 삼림공원 남문 매표소 (직행)\n10분 간격, 첫차 06:00/막차 18:30, 12위안/인, 약 30km/45분, 매표소 앞 하차.\n\n노선2 → 우링위안 버스터미널 (우자위커우 문·위안자제 방향)\n10분 간격, 첫차 06:00/막차 19:30, 13위안/인, 약 35km/50분; 버스 1/2번(1위안) 환승 또는 도보 약 2km 우자위커우 매표소.\n\n노선3 → 중후/톈쯔산 진 (양자제·톈쯔산 방향)\n약 1시간 간격(만석 시 출발).\n• 양자제 매표소: 중후 하차, 약 40km/1시간10분, 매표소까지 약 2km 도보 또는 현지 차량.\n• 톈쯔산 매표소: 약 55km/1.5~2시간; 케이블카·엘리베이터 비용 없이 톈쯔산·양자제·위안자제 전 구역 직접 입장 가능."
     }
   },
 
