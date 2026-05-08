@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "checkin": "Check-in Info",
+    "story": "Our Story",
+    "guide": "Zhangjiajie Guide"
+  },
+  "hero": {
+    "title": "Yanyu Jian",
+    "subtitle": "Sand Painting Art Hostel · Zhangjiajie",
+    "tagline": "Between stone and canvas, discover your Zhangjiajie"
+  },
+  "checkin": {
+    "title": "Check-in Information",
+    "wifi_name": "Wi-Fi Name",
+    "wifi_password": "Wi-Fi Password",
+    "checkin_time": "Check-in Time",
+    "checkout_time": "Check-out Time",
+    "curfew": "Curfew",
+    "contact": "Contact Reception"
+  },
+  "story": {
+    "title": "About Yanyu Jian",
+    "art_title": "Sand Painting Art"
+  },
+  "guide": {
+    "title": "Zhangjiajie Travel Guide",
+    "attractions": "Top Attractions",
+    "transport": "Getting Around",
+    "food": "Food & Dining",
+    "tips": "Practical Tips",
+    "emergency": "Emergency Contacts"
+  },
+  "taxi_card": {
+    "copy": "Copy address for taxi driver",
+    "copied": "Copied!"
+  }
+}

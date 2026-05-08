@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "checkin": "入住须知",
+    "story": "关于我们",
+    "guide": "张家界指南"
+  },
+  "hero": {
+    "title": "岩语间",
+    "subtitle": "张家界·砂石画艺术青旅",
+    "tagline": "在岩石与画布之间，找到属于你的张家界"
+  },
+  "checkin": {
+    "title": "入住须知",
+    "wifi_name": "Wi-Fi 名称",
+    "wifi_password": "Wi-Fi 密码",
+    "checkin_time": "入住时间",
+    "checkout_time": "退房时间",
+    "curfew": "门禁时间",
+    "contact": "联系前台"
+  },
+  "story": {
+    "title": "关于岩语间",
+    "art_title": "砂石画艺术"
+  },
+  "guide": {
+    "title": "张家界旅游指南",
+    "attractions": "核心景点",
+    "transport": "交通指南",
+    "food": "美食推荐",
+    "tips": "实用贴士",
+    "emergency": "紧急联系"
+  },
+  "taxi_card": {
+    "copy": "复制地址给司机",
+    "copied": "已复制！"
+  }
+}
