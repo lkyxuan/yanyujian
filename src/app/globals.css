@@ -5,7 +5,7 @@
   --color-stone: #3D3530;
   --color-linen: #F5F0E8;
   --color-moss: #5C7A5C;
-  --font-serif: "Playfair Display", "Noto Serif SC", Georgia, serif;
+  --font-serif: var(--font-playfair), var(--font-noto-serif), Georgia, serif;
 }
 
 body {
