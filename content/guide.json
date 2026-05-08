@@ -85,45 +85,89 @@
       "nameKo": "장가계 국가삼림공원",
       "nameJa": "張家界国家森林公園",
       "tagline": {
-        "zh": "《阿凡达》取景地，石英砂岩峰林，建议游览 2 天",
-        "en": "Avatar filming location. Sandstone pillars in the mist. Allow 2 days.",
-        "ko": "아바타 촬영지. 사암 기둥이 안개 속에. 2일 권장.",
-        "ja": "アバターのロケ地。霧の中にそびえる砂岩の峰。2日間推奨。"
+        "zh": "哈利路亚山 · 阿凡达取景地 · 进武陵源入口可直达袁家界观景台",
+        "en": "Hallelujah Mountain · Avatar filming location · Enter via Wulingyuan gate for Yuanjiajiee viewpoint",
+        "ko": "할렐루야 산 · 아바타 촬영지 · 우링위안 입구로 입장해야 위안자제 전망대",
+        "ja": "ハレルヤ山 · アバターのロケ地 · 武陵源入口から袁家界展望台へ"
       },
       "transport": [
         {
-          "mode": "🚌",
-          "labelZh": "班车（推荐）",
-          "labelEn": "Bus (recommended)",
-          "labelKo": "버스 (추천)",
-          "labelJa": "バス（おすすめ）",
-          "detailZh": "步行/打车至市中心汽车站 → 南门直达线 12元·45分钟 / 武陵源线 13元·50分钟 / 天子山线 约1小时·含全区",
-          "detailEn": "Walk/taxi to Central Bus Station → South Gate direct ¥12·45min / Wulingyuan ¥13·50min / Tianzi Mountain ~1h·full park access",
-          "detailKo": "버스터미널까지 도보/택시 → 남문 직행 12위안·45분 / 우링위안 13위안·50분 / 톈쯔산 약 1시간·전 구역",
-          "detailJa": "市内バスターミナルへ徒歩/タクシー → 南門直行12元・45分 / 武陵源13元・50分 / 天子山約1時間・全域アクセス",
+          "mode": "🎯",
+          "labelZh": "阿凡达打卡线路（推荐）",
+          "labelEn": "Avatar Route (recommended)",
+          "labelKo": "아바타 루트 (추천)",
+          "labelJa": "アバタールート（おすすめ）",
+          "detailZh": "汽车站乘武陵源线班车（13元·50分）→ 武陵源吴家峪口入园 → 百龙天梯上袁家界 → 哈利路亚山观景台",
+          "detailEn": "Bus to Wulingyuan (¥13·50min) → enter at Wujiayukou gate → Bailong Elevator up to Yuanjiajiee → Hallelujah Mountain viewpoint",
+          "detailKo": "버스로 우링위안 이동(13위안·50분) → 우자위커우 입구 입장 → 바이룽 엘리베이터로 위안자제 → 할렐루야 산 전망대",
+          "detailJa": "バスで武陵源へ（13元・50分）→ 呉家峪口入口から入園 → 百龍天梯で袁家界へ → ハレルヤ山展望台",
           "diDiLat": 29.1240,
           "diDiLng": 110.4839,
           "diDiNameZh": "张家界市中心汽车站"
         },
         {
           "mode": "🚕",
-          "labelZh": "打车直达",
-          "labelEn": "Taxi direct",
-          "labelKo": "택시 직행",
-          "labelJa": "タクシー直行",
-          "detailZh": "约 80–120 元，全程 45 分钟",
-          "detailEn": "~¥80–120, ~45 min",
-          "detailKo": "약 80~120위안, 약 45분",
-          "detailJa": "約80〜120元、約45分",
-          "diDiLat": 29.3242,
-          "diDiLng": 110.4339,
-          "diDiNameZh": "张家界国家森林公园南门"
+          "labelZh": "打车直达武陵源",
+          "labelEn": "Taxi direct to Wulingyuan",
+          "labelKo": "우링위안까지 택시 직행",
+          "labelJa": "武陵源までタクシー直行",
+          "detailZh": "约 80–120 元，全程 45–50 分钟，告诉司机去武陵源吴家峪口",
+          "detailEn": "~¥80–120, ~45–50 min — tell the driver: Wulingyuan Wujiayukou gate",
+          "detailKo": "약 80~120위안, 약 45~50분 — 기사에게: 우링위안 우자위커우",
+          "detailJa": "約80〜120元、約45〜50分 — 運転手に「武陵源呉家峪口」と伝えて",
+          "diDiLat": 29.3478,
+          "diDiLng": 110.5319,
+          "diDiNameZh": "武陵源景区吴家峪口"
         }
       ],
-      "tipZh": "建议提前购好景区门票（约 248 元/人），节假日需提前 3–7 天",
-      "tipEn": "Buy park tickets in advance (~¥248/person). Book 3–7 days ahead on holidays.",
-      "tipKo": "사전 티켓 구매 권장 (약 248위안/인). 성수기 3~7일 전 예약.",
-      "tipJa": "景区チケット（約248元/人）は事前購入を。連休は3〜7日前に。"
+      "tipZh": "门票约 248 元/人，建议提前网上购买；节假日需提前 3–7 天",
+      "tipEn": "Park ticket ~¥248/person — buy online in advance. Book 3–7 days ahead on holidays.",
+      "tipKo": "입장권 약 248위안/인 · 온라인 사전 구매 권장 · 성수기 3~7일 전 예약",
+      "tipJa": "入園チケット約248元/人·事前ネット購入を。連休は3〜7日前に。"
+    },
+    {
+      "icon": "🌫️",
+      "nameZh": "天门山",
+      "nameEn": "Tianmen Mountain",
+      "nameKo": "톈먼산",
+      "nameJa": "天門山",
+      "tagline": {
+        "zh": "亚洲最高海拔公路 · 玻璃栈道 · 天门洞奇观，市区内即可乘索道",
+        "en": "Asia's highest road · glass walkway · Tianmen Cave. Cable car from the city center.",
+        "ko": "아시아 최고 고도 도로·유리 잔도·톈먼 동굴. 시내에서 케이블카 출발.",
+        "ja": "アジア最高標高の道路・ガラス桟道・天門洞。市内からロープウェイで。"
+      },
+      "transport": [
+        {
+          "mode": "🚕",
+          "labelZh": "打车至索道站",
+          "labelEn": "Taxi to cable car station",
+          "labelKo": "케이블카 역까지 택시",
+          "labelJa": "ロープウェイ駅までタクシー",
+          "detailZh": "旅社打车约 10–15 分钟，约 10–20 元，到天门山索道下站",
+          "detailEn": "~10–15 min from hostel, ~¥10–20, to Tianmen Mountain cable car lower station",
+          "detailKo": "호스텔에서 약 10~15분, 약 10~20위안, 톈먼산 케이블카 하부역까지",
+          "detailJa": "ホステルから約10〜15分、約10〜20元、天門山ロープウェイ下駅まで",
+          "diDiLat": 29.1255,
+          "diDiLng": 110.4812,
+          "diDiNameZh": "天门山索道下站"
+        },
+        {
+          "mode": "🚠",
+          "labelZh": "索道上山",
+          "labelEn": "Cable car up",
+          "labelKo": "케이블카 탑승",
+          "labelJa": "ロープウェイ",
+          "detailZh": "索道约 30 分钟到山顶，全套票（含索道+观光车）约 258 元/人",
+          "detailEn": "~30 min cable car to the summit. Full ticket (cable car + shuttle bus) ~¥258/person",
+          "detailKo": "케이블카 약 30분으로 정상. 풀 티켓(케이블카+셔틀버스) 약 258위안/인",
+          "detailJa": "ロープウェイ約30分で山頂へ。フルチケット（ロープウェイ+シャトル）約258元/人"
+        }
+      ],
+      "tipZh": "山顶较凉，请带外套；雨天云雾更有仙境感",
+      "tipEn": "It's cool at the top — bring a jacket. Misty rainy days are magical.",
+      "tipKo": "정상은 서늘하니 겉옷 필수. 안개 낀 날은 신비로운 풍경.",
+      "tipJa": "山頂は涼しいので上着を。霧の日は幻想的な景色に。"
     }
   ],
 
