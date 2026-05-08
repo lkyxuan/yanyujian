@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
 export default function HeroSection() {
@@ -5,16 +6,18 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-stone">
-      {/* 背景纹理层 */}
-      <div
-        className="absolute inset-0 opacity-20"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23C4956A' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        }}
+      {/* 张家界山景背景 */}
+      <Image
+        src="/images/hero-bg.jpg"
+        alt="Zhangjiajie mountains"
+        fill
+        className="object-cover object-center"
+        priority
       />
 
-      {/* 渐变覆盖层 */}
-      <div className="absolute inset-0 bg-gradient-to-b from-stone/60 via-stone/40 to-stone/80" />
+      {/* 砂色水墨叠加层：sepia 感 + 暗化保证文字可读 */}
+      <div className="absolute inset-0 bg-stone/60 mix-blend-multiply" />
+      <div className="absolute inset-0 bg-gradient-to-b from-stone/30 via-transparent to-stone/70" />
 
       {/* 内容 */}
       <div className="relative z-10 text-center text-linen px-6">

@@ -9,8 +9,8 @@ export default function Home() {
     <main>
       <HeroSection />
       <CheckinSection />
-      <StorySection />
       <GuideSection />
+      <StorySection />
       <Footer />
     </main>
   )
