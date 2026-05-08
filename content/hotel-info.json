@@ -55,22 +55,6 @@
 
   "taxiDestinations": [
     {
-      "nameZh": "岩语间文青旅社（回旅社）",
-      "nameEn": "Yanyu Jian Hostel (Back to Base)",
-      "addressZh": "湖南省张家界市永定区子午路2号岩语间文青旅社",
-      "note": "Show this to get back to the hostel"
-    },
-    {
-      "nameZh": "张家界国家森林公园（正门）",
-      "nameEn": "Zhangjiajie National Forest Park",
-      "addressZh": "湖南省张家界市武陵源区张家界国家森林公园正门"
-    },
-    {
-      "nameZh": "天门山索道站",
-      "nameEn": "Tianmen Mountain Cable Car",
-      "addressZh": "湖南省张家界市永定区天门山景区索道下站"
-    },
-    {
       "nameZh": "张家界西站（高铁站）",
       "nameEn": "Zhangjiajie West Railway Station",
       "addressZh": "湖南省张家界市永定区张家界西站"
@@ -79,15 +63,20 @@
       "nameZh": "荷花机场",
       "nameEn": "Hehua Airport",
       "addressZh": "湖南省张家界市荷花国际机场"
+    },
+    {
+      "nameZh": "张家界市人民医院",
+      "nameEn": "Zhangjiajie People's Hospital",
+      "addressZh": "湖南省张家界市永定区古庸路192号张家界市人民医院"
     }
   ],
 
   "emergencyContacts": [
-    { "label": "Police / 报警",               "number": "110" },
-    { "label": "Ambulance / 急救",            "number": "120" },
-    { "label": "Fire / 火警",                 "number": "119" },
-    { "label": "Tourism Hotline / 旅游投诉",  "number": "12301" },
-    { "label": "Zhangjiajie Hospital / 市人民医院", "number": "+86-744-8222120" },
-    { "label": "Hostel / 青旅紧急联系",       "number": "+8613107449368" }
+    { "labelZh": "报警",         "labelEn": "Police",            "labelKo": "경찰",          "labelJa": "警察",          "number": "110" },
+    { "labelZh": "急救",         "labelEn": "Ambulance",         "labelKo": "구급",          "labelJa": "救急",          "number": "120" },
+    { "labelZh": "火警",         "labelEn": "Fire",              "labelKo": "소방",          "labelJa": "消防",          "number": "119" },
+    { "labelZh": "旅游投诉热线", "labelEn": "Tourism Hotline",   "labelKo": "관광 불편 신고", "labelJa": "観光ホットライン", "number": "12301" },
+    { "labelZh": "市人民医院",   "labelEn": "People's Hospital", "labelKo": "시 인민병원",   "labelJa": "市人民病院",    "number": "+86-744-8222120" },
+    { "labelZh": "青旅紧急联系", "labelEn": "Hostel Emergency",  "labelKo": "호스텔 긴급 연락", "labelJa": "ホステル緊急連絡", "number": "+8613107449368" }
   ]
 }

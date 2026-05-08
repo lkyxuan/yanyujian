@@ -26,6 +26,49 @@
       "ko": "호스텔→시내버스터미널(쯔우로 2번지, 아오라이 광장 근처): 도보 약 1.2km/15분, 택시 약 5분/6~8위안, 또는 버스 1/2/6/7번(1위안, 2정거장). 버스터미널 문의: 0744-8305599.",
       "ja": "ホステル→市内バスターミナル（子午路2号、アウトレット広場隣）：徒歩約1.2km/15分、タクシー約5分/6〜8元、またはバス1/2/6/7番（1元、2停留所）。バスターミナル問合せ：0744-8305599。"
     },
+    "busRoutes": [
+      {
+        "icon": "🏔️",
+        "destZh": "森林公园南门（直达）",
+        "destEn": "Forest Park South Gate (direct)",
+        "destKo": "삼림공원 남문 (직행)",
+        "destJa": "森林公園南門（直行）",
+        "price": "¥12",
+        "durationMin": 45,
+        "freq": { "zh": "10 分钟一班", "en": "every 10 min", "ko": "10분 간격", "ja": "10分毎" },
+        "hours": "06:00 – 18:30"
+      },
+      {
+        "icon": "🌿",
+        "destZh": "武陵源景区（袁家界·吴家峪口）",
+        "destEn": "Wulingyuan Scenic Area (Yuanjiajiee)",
+        "destKo": "우링위안 경관구 (위안자제)",
+        "destJa": "武陵源景区（袁家界方面）",
+        "price": "¥13",
+        "durationMin": 50,
+        "freq": { "zh": "10 分钟一班", "en": "every 10 min", "ko": "10분 간격", "ja": "10分毎" },
+        "hours": "06:00 – 19:30",
+        "noteZh": "下车后步行或转公交约 2 公里至检票口",
+        "noteEn": "Walk or take local bus ~2 km to the ticket gate after alighting",
+        "noteKo": "하차 후 도보 또는 버스 약 2km로 매표소",
+        "noteJa": "下車後徒歩またはバスで約2kmでチケット売り場へ"
+      },
+      {
+        "icon": "⛰️",
+        "destZh": "天子山镇（杨家界·天子山·全区）",
+        "destEn": "Tianzi Mountain Town (all park zones)",
+        "destKo": "톈쯔산 진 (전 구역 입장)",
+        "destJa": "天子山鎮（全域入場可）",
+        "price": null,
+        "durationMin": 100,
+        "freq": { "zh": "约 1 小时一班", "en": "roughly hourly", "ko": "약 1시간 간격", "ja": "約1時間毎" },
+        "hours": "06:00 – 17:00",
+        "noteZh": "从天子山镇入园可游全区，无需额外缆车费",
+        "noteEn": "Entering via Tianzi Mountain Town covers all zones with no extra cable-car fee",
+        "noteKo": "톈쯔산 진 입장 시 전 구역 이용 가능, 케이블카 추가 비용 없음",
+        "noteJa": "天子山鎮から入園すると全域利用可、ロープウェイ追加料金不要"
+      }
+    ],
     "toBusSchedule": {
       "zh": "线路1 → 森林公园门票站（南门·直达）\n10 分钟一班，首班 06:00 / 末班 18:30，票价 12 元，全程约 30 公里 / 45 分钟，直达门票站。\n\n线路2 → 武陵源景区汽车站（吴家峪口·袁家界方向）\n10 分钟一班，首班 06:00 / 末班 19:30，票价 13 元，全程约 35 公里 / 50 分钟；出站后步行或转 1/2 路公交（1 元）约 2 公里至吴家峪口门票站。\n\n线路3 → 中湖 / 天子山镇（杨家界·天子山方向）\n约一小时一班（按乘客多少灵活发车）。\n• 到杨家界门票站：在中湖下车，全程约 40 公里 / 1 小时 10 分，下车点距门票站约 2 公里，可步行或乘当地车辆。\n• 到天子山门票站：全程约 55 公里 / 1.5–2 小时；从天子山镇入园无需另付索道 / 电梯费，可直达天子山、杨家界、袁家界全区。",
       "en": "Route 1 → Forest Park South Gate ticket station (direct)\nEvery 10 min, first 06:00 / last 18:30, ¥12/person, ~30 km / 45 min, drops off at the ticket gate.\n\nRoute 2 → Wulingyuan Bus Station (Wujiayukou Gate / Yuanjiajiee)\nEvery 10 min, first 06:00 / last 19:30, ¥13/person, ~35 km / 50 min; then walk or take bus 1/2 (¥1) ~2 km to Wujiayukou ticket gate.\n\nRoute 3 → Zhonghu / Tianzi Mountain Town (Yangjie & Tianzi Mountain)\nRoughly hourly (departs when enough passengers). \n• To Yangjie gate: get off at Zhonghu, ~40 km / 1h10min, then walk or take local transport ~2 km to the gate.\n• To Tianzi Mountain gate: ~55 km / 1.5–2 h; entering here avoids cable car / elevator fees and gives direct access to Tianzi Mountain, Yangjie, and Yuanjiajiee.",

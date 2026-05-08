@@ -170,27 +170,73 @@ export default function GuideSection() {
         {/* 交通 */}
         {activeTab === 'transport' && (
           <div className="space-y-5">
-            <div className="bg-linen rounded-2xl p-5 border border-sand/20 space-y-4">
+            {/* 去汽车站 */}
+            <div className="bg-linen rounded-2xl p-4 border border-sand/20">
+              <p className="font-bold text-stone text-sm mb-1">
+                🚌 {{ zh: '旅社 → 市中心汽车站', en: 'Hostel → Central Bus Station', ko: '호스텔 → 버스터미널', ja: 'ホステル → バスターミナル' }[lang]}
+              </p>
+              <p className="text-stone/40 text-xs mb-3">
+                📍 {{ zh: '子午路2号 · 奥莱广场旁', en: '2 Ziwu Rd · near Aolai Plaza', ko: '쯔우로 2번지 · 아오라이 광장 근처', ja: '子午路2号・アウトレット広場隣' }[lang]}
+              </p>
+              <div className="space-y-1.5">
+                {([
+                  { icon: '🚶', zh: '步行约 15 分钟', en: 'Walk ~15 min', ko: '도보 약 15분', ja: '徒歩 約15分' },
+                  { icon: '🚖', zh: '打车约 5 分钟 · ¥6–8', en: 'Taxi ~5 min · ¥6–8', ko: '택시 약 5분 · 6~8위안', ja: 'タクシー 約5分 · 6〜8元' },
+                  { icon: '🚌', zh: '公交 1/2/6/7路 · ¥1 · 2站', en: 'Bus 1/2/6/7 · ¥1 · 2 stops', ko: '버스 1/2/6/7번 · 1위안 · 2정거장', ja: 'バス 1/2/6/7番 · 1元 · 2停留所' },
+                ] as any[]).map((row) => (
+                  <div key={row.zh} className="flex items-center gap-2 text-sm text-stone/70">
+                    <span className="w-5 text-center text-base">{row.icon}</span>
+                    <span>{row[lang]}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* 班车路线 */}
+            <div>
+              <p className="font-bold text-stone text-sm mb-3">
+                🎫 {{ zh: '汽车站 → 景区班车', en: 'Bus Station → Park Shuttle', ko: '버스터미널 → 공원행 셔틀', ja: 'バスターミナル → 公園シャトル' }[lang]}
+              </p>
+              <div className="space-y-2">
+                {((guideData.transport as any).busRoutes as any[]).map((route, i) => (
+                  <div key={i} className="bg-linen rounded-2xl p-4 border border-sand/20">
+                    <div className="flex items-center justify-between gap-2 mb-1">
+                      <div className="flex items-center gap-2 min-w-0">
+                        <span>{route.icon}</span>
+                        <p className="font-medium text-stone text-sm truncate">{route[`dest${cap(lang)}`]}</p>
+                      </div>
+                      <div className="flex items-center gap-1.5 flex-shrink-0">
+                        {route.price && (
+                          <span className="bg-sand/20 text-sand font-bold text-xs px-2 py-0.5 rounded-full">{route.price}</span>
+                        )}
+                        <span className="text-stone/40 text-xs">{route.durationMin}min</span>
+                      </div>
+                    </div>
+                    <p className="text-stone/50 text-xs">{route.freq[lang]} · {route.hours}</p>
+                    {route[`note${cap(lang)}`] && (
+                      <p className="text-moss text-xs mt-1.5">💡 {route[`note${cap(lang)}`]}</p>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* 滴滴贴士 */}
+            <div className="bg-linen rounded-2xl p-4 border border-sand/20 flex gap-3 items-start">
+              <span className="text-xl flex-shrink-0">🚖</span>
               <div>
-                <h3 className="font-bold text-stone text-sm mb-1">🚌 {{ zh: '岩语间 → 市中心汽车站', en: 'Hostel → Central Bus Station', ko: '호스텔 → 시내버스터미널', ja: 'ホステル → 市内バスターミナル' }[lang]}</h3>
-                <p className="text-stone/70 text-sm">{(guideData.transport.toBusStation as any)[lang]}</p>
-              </div>
-              <div className="border-t border-sand/20 pt-4">
-                <h3 className="font-bold text-stone text-sm mb-2">🎫 {{ zh: '班车线路', en: 'Bus Routes to the Parks', ko: '공원행 버스 노선', ja: '路線バス時刻表' }[lang]}</h3>
-                <p className="text-stone/70 text-sm whitespace-pre-line">{(guideData.transport.toBusSchedule as any)[lang]}</p>
-              </div>
-              <div className="border-t border-sand/20 pt-4">
-                <h3 className="font-bold text-stone text-sm mb-1">🚕 {{ zh: '打车 / 滴滴', en: 'Taxi & DiDi', ko: '택시 & 디디', ja: 'タクシー & DiDi' }[lang]}</h3>
+                <p className="font-bold text-stone text-sm mb-1">DiDi</p>
                 <p className="text-stone/70 text-sm">{(guideData.transport.taxiTips as any)[lang]}</p>
               </div>
             </div>
 
+            {/* 打车目的地卡片 */}
             <div>
-              <h3 className="font-serif text-lg text-stone mb-2">
-                📍 {{ zh: '打车目的地卡片', en: 'Taxi Destination Cards', ko: '택시 목적지 카드', ja: 'タクシー目的地カード' }[lang]}
-              </h3>
-              <p className="text-stone/50 text-xs mb-4">
-                {{ zh: '点击复制中文地址，展示给司机即可。', en: 'Tap to copy the Chinese address, then show your phone to the driver.', ko: '주소를 복사하여 택시 기사에게 보여주세요.', ja: '住所をコピーして運転手に見せてください。' }[lang]}
+              <p className="font-bold text-stone text-sm mb-1">
+                📍 {{ zh: '打车地址卡片', en: 'Taxi Address Cards', ko: '택시 주소 카드', ja: 'タクシー住所カード' }[lang]}
+              </p>
+              <p className="text-stone/50 text-xs mb-3">
+                {{ zh: '点击复制中文地址给司机。', en: 'Tap to copy the Chinese address for your driver.', ko: '중국어 주소를 복사해 기사에게 보여주세요.', ja: '中国語住所をコピーして運転手に。' }[lang]}
               </p>
               <div className="space-y-3">
                 {guideData.taxiDestinations.map((d) => (
@@ -238,9 +284,9 @@ export default function GuideSection() {
             <p className="text-stone/50 text-sm text-center mb-4">
               {{ zh: '点击号码可直接拨打。', en: 'Tap a number to call directly.', ko: '번호를 눌러 바로 전화하세요.', ja: '番号をタップして直接電話できます。' }[lang]}
             </p>
-            {guideData.emergency.map((item) => (
-              <div key={item.label} className="flex items-center justify-between bg-linen rounded-2xl px-5 py-4 border border-sand/20">
-                <span className="text-stone font-medium text-sm">{item.label}</span>
+            {guideData.emergency.map((item, i) => (
+              <div key={i} className="flex items-center justify-between bg-linen rounded-2xl px-5 py-4 border border-sand/20">
+                <span className="text-stone font-medium text-sm">{(item as any)[`label${cap(lang)}`]}</span>
                 <a
                   href={`tel:${item.number}`}
                   className="font-bold text-sand text-lg active:text-sand/70"
