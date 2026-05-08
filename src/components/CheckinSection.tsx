@@ -83,10 +83,10 @@ export default function CheckinSection() {
           <h3 className="font-serif text-lg text-stone mb-4">
             {lang === 'en' ? 'House Rules' : lang === 'ko' ? '하우스 룰' : '温馨提示'}
           </h3>
-          <ul className="space-y-3">
+          <ul className="grid grid-cols-2 gap-3">
             {checkinData.rules.map((rule, i) => (
-              <li key={i} className="flex items-center gap-3">
-                <span className="text-xl w-7 text-center flex-shrink-0">{rule.icon}</span>
+              <li key={i} className="flex items-center gap-2">
+                <span className="text-xl flex-shrink-0">{rule.icon}</span>
                 <span className="text-stone/80 text-sm">{(rule as any)[lang]}</span>
               </li>
             ))}
