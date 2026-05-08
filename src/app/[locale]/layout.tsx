@@ -34,7 +34,7 @@ export default async function LocaleLayout({
   const messages = await getMessages()
 
   return (
-    <html lang={locale} className="h-full antialiased">
+    <html lang={locale} className="h-full antialiased" suppressHydrationWarning>
       <body className={`${playfair.variable} ${notoSerifSC.variable} h-full pt-14`}>
         <NextIntlClientProvider messages={messages}>
           <Navbar />

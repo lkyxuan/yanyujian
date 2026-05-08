@@ -57,7 +57,10 @@
           "detailZh": "步行/打车至市中心汽车站 → 南门直达线 12元·45分钟 / 武陵源线 13元·50分钟 / 天子山线 约1小时·含全区",
           "detailEn": "Walk/taxi to Central Bus Station → South Gate direct ¥12·45min / Wulingyuan ¥13·50min / Tianzi Mountain ~1h·full park access",
           "detailKo": "버스터미널까지 도보/택시 → 남문 직행 12위안·45분 / 우링위안 13위안·50분 / 톈쯔산 약 1시간·전 구역",
-          "detailJa": "市内バスターミナルへ徒歩/タクシー → 南門直行12元・45分 / 武陵源13元・50分 / 天子山約1時間・全域アクセス"
+          "detailJa": "市内バスターミナルへ徒歩/タクシー → 南門直行12元・45分 / 武陵源13元・50分 / 天子山約1時間・全域アクセス",
+          "diDiLat": 29.1240,
+          "diDiLng": 110.4839,
+          "diDiNameZh": "张家界市中心汽车站"
         },
         {
           "mode": "🚕",
@@ -68,7 +71,10 @@
           "detailZh": "约 80–120 元，全程 45 分钟",
           "detailEn": "~¥80–120, ~45 min",
           "detailKo": "약 80~120위안, 약 45분",
-          "detailJa": "約80〜120元、約45分"
+          "detailJa": "約80〜120元、約45分",
+          "diDiLat": 29.3242,
+          "diDiLng": 110.4339,
+          "diDiNameZh": "张家界国家森林公园南门"
         }
       ],
       "tipZh": "建议提前购好景区门票（约 248 元/人），节假日需提前 3–7 天",
@@ -98,7 +104,10 @@
           "detailZh": "旅社打车约 10–15 分钟，约 10–20 元，到天门山索道下站",
           "detailEn": "~10–15 min from hostel, ~¥10–20, to Tianmen Mountain cable car lower station",
           "detailKo": "호스텔에서 약 10~15분, 약 10~20위안, 톈먼산 케이블카 하부역까지",
-          "detailJa": "ホステルから約10〜15分、約10〜20元、天門山ロープウェイ下駅まで"
+          "detailJa": "ホステルから約10〜15分、約10〜20元、天門山ロープウェイ下駅まで",
+          "diDiLat": 29.1255,
+          "diDiLng": 110.4812,
+          "diDiNameZh": "天门山索道下站"
         },
         {
           "mode": "🚠",

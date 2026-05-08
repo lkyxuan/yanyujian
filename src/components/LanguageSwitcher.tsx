@@ -22,16 +22,13 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="flex gap-1.5">
-      {LOCALES.map(({ code, label, disabled }) => (
+      {LOCALES.map(({ code, label }) => (
         <button
           key={code}
-          onClick={() => !disabled && switchLocale(code)}
-          disabled={disabled}
+          onClick={() => switchLocale(code)}
           className={`px-3 py-2 rounded-full text-xs font-medium transition-colors min-h-[44px] min-w-[44px]
             ${locale === code
               ? 'bg-sand text-white'
-              : disabled
-              ? 'text-stone/30 cursor-not-allowed'
               : 'text-stone hover:bg-sand/20'
             }`}
         >
