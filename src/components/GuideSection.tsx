@@ -6,10 +6,6 @@ import TaxiCard from './TaxiCard'
 
 type Tab = 'transport' | 'food' | 'tips' | 'emergency'
 
-function diDiUrl(lat: number, lng: number, name: string) {
-  return `diditaxi://passenger/send_to?dest_lat=${lat}&dest_lng=${lng}&dest_name=${encodeURIComponent(name)}`
-}
-
 const DIDI_LABEL: Record<string, string> = {
   zh: '滴滴叫车',
   en: 'Open DiDi',
@@ -17,13 +13,28 @@ const DIDI_LABEL: Record<string, string> = {
   ja: 'DiDiで開く',
 }
 
+const DIDI_COPIED: Record<string, string> = {
+  zh: '地址已复制 · 在滴滴粘贴目的地',
+  en: 'Address copied · Paste in DiDi',
+  ko: '주소 복사됨 · 디디에 붙여넣기',
+  ja: 'アドレスをコピー · DiDiに貼り付け',
+}
+
 export default function GuideSection() {
   const [activeTab, setActiveTab] = useState<Tab>('transport')
   const [activeDest, setActiveDest] = useState(0)
+  const [copiedKey, setCopiedKey] = useState<string | null>(null)
   const t = useTranslations('guide')
   const locale = useLocale()
   const lang = locale === 'en' ? 'en' : locale === 'ko' ? 'ko' : locale === 'ja' ? 'ja' : 'zh'
   const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
+
+  function openDiDi(address: string, key: string) {
+    navigator.clipboard.writeText(address).catch(() => {})
+    window.location.href = 'diditaxi://'
+    setCopiedKey(key)
+    setTimeout(() => setCopiedKey(null), 2500)
+  }
 
   const tabs: { key: Tab; label: string; icon: string }[] = [
     { key: 'transport', label: t('transport'), icon: '🚕' },
@@ -34,6 +45,8 @@ export default function GuideSection() {
 
   const destinations = guideData.destinations as any[]
   const dest = destinations[activeDest]
+  const hostelEntry = guideData.taxiDestinations[0]
+  const hostelAddress = hostelEntry?.addressZh ?? '湖南省张家界市岩语间文青旅社'
 
   return (
     <section id="guide" className="py-16 px-4 bg-white/50">
@@ -60,7 +73,7 @@ export default function GuideSection() {
         </div>
 
         {/* 目的地交通卡片 */}
-        <div className="bg-linen rounded-2xl border border-sand/20 overflow-hidden mb-10">
+        <div className="bg-linen rounded-2xl border border-sand/20 overflow-hidden mb-5">
           <div className="p-5 pb-3">
             <div className="flex items-center gap-3 mb-2">
               <span className="text-3xl">{dest.icon}</span>
@@ -75,27 +88,36 @@ export default function GuideSection() {
           </div>
 
           <div className="mx-5 mb-4 space-y-2">
-            {dest.transport.map((tr: any, i: number) => (
-              <div key={i} className="bg-white/70 rounded-xl p-3">
-                <div className="flex gap-3 items-start">
-                  <span className="text-lg flex-shrink-0 mt-0.5">{tr.mode}</span>
-                  <div className="flex-1">
-                    <p className="font-medium text-stone text-sm">{tr[`label${cap(lang)}`]}</p>
-                    <p className="text-stone/60 text-xs leading-relaxed mt-0.5">{tr[`detail${cap(lang)}`]}</p>
+            {dest.transport.map((tr: any, i: number) => {
+              const key = `dest-${activeDest}-${i}`
+              return (
+                <div key={i} className="bg-white/70 rounded-xl p-3">
+                  <div className="flex gap-3 items-start">
+                    <span className="text-lg flex-shrink-0 mt-0.5">{tr.mode}</span>
+                    <div className="flex-1">
+                      <p className="font-medium text-stone text-sm">{tr[`label${cap(lang)}`]}</p>
+                      <p className="text-stone/60 text-xs leading-relaxed mt-0.5">{tr[`detail${cap(lang)}`]}</p>
+                    </div>
                   </div>
+                  {tr.diDiNameZh && (
+                    <button
+                      onClick={() => openDiDi(tr.diDiNameZh, key)}
+                      className="mt-2.5 w-full flex items-center gap-2 bg-orange-50 border border-orange-200 rounded-lg px-3 py-2 text-xs font-medium active:bg-orange-100 transition-colors"
+                    >
+                      {copiedKey === key ? (
+                        <span className="text-green-600 w-full text-center">{DIDI_COPIED[lang]}</span>
+                      ) : (
+                        <>
+                          <span>🚖</span>
+                          <span className="text-orange-700">{DIDI_LABEL[lang]}</span>
+                          <span className="text-orange-400 ml-auto">→ {tr.diDiNameZh}</span>
+                        </>
+                      )}
+                    </button>
+                  )}
                 </div>
-                {tr.diDiLat && (
-                  <a
-                    href={diDiUrl(tr.diDiLat, tr.diDiLng, tr.diDiNameZh)}
-                    className="mt-2.5 flex items-center gap-2 bg-orange-50 border border-orange-200 rounded-lg px-3 py-2 text-xs font-medium text-orange-700 active:bg-orange-100"
-                  >
-                    <span>🚖</span>
-                    <span>{DIDI_LABEL[lang]}</span>
-                    <span className="text-orange-400 ml-auto">→ {tr.diDiNameZh}</span>
-                  </a>
-                )}
-              </div>
-            ))}
+              )
+            })}
           </div>
 
           <div className="mx-5 mb-5 flex gap-2 items-start text-moss text-xs">
@@ -103,6 +125,29 @@ export default function GuideSection() {
             <p>{dest[`tip${cap(lang)}`]}</p>
           </div>
         </div>
+
+        {/* 回旅社快捷按钮 */}
+        <button
+          onClick={() => openDiDi(hostelAddress, 'hostel')}
+          className="w-full flex items-center gap-3 bg-linen border border-sand/30 rounded-2xl px-5 py-4 mb-10 active:bg-sand/10 transition-colors"
+        >
+          <span className="text-2xl">🏠</span>
+          <div className="flex-1 text-left">
+            <p className="font-bold text-stone text-sm">
+              {{ zh: '回旅社', en: 'Back to Hostel', ko: '호스텔로 돌아가기', ja: 'ホステルへ戻る' }[lang]}
+            </p>
+            <p className="text-stone/50 text-xs mt-0.5">
+              {{ zh: '复制地址并打开滴滴', en: 'Copy address & open DiDi', ko: '주소 복사 후 디디 열기', ja: 'アドレスをコピーしてDiDiを開く' }[lang]}
+            </p>
+          </div>
+          {copiedKey === 'hostel' ? (
+            <span className="text-green-600 text-xs font-medium flex-shrink-0">
+              {{ zh: '已复制✓', en: 'Copied ✓', ko: '복사됨 ✓', ja: 'コピー済 ✓' }[lang]}
+            </span>
+          ) : (
+            <span className="text-orange-500 text-sm font-bold flex-shrink-0">🚖</span>
+          )}
+        </button>
 
         {/* Tab 导航 */}
         <div className="flex gap-2 overflow-x-auto pb-2 mb-8 scrollbar-hide -mx-4 px-4">
