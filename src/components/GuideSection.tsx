@@ -54,23 +54,25 @@ export default function GuideSection() {
         <h2 className="font-serif text-3xl text-stone text-center mb-3">{t('title')}</h2>
         <div className="w-16 h-px bg-sand mx-auto mb-8" />
 
-        {/* 目的地切换 */}
-        <div className="flex gap-3 mb-5">
-          {destinations.map((d: any, i: number) => (
-            <button
-              key={d.nameEn}
-              onClick={() => setActiveDest(i)}
-              className={`flex-1 flex items-center justify-center gap-2 py-3 rounded-2xl text-sm font-medium border transition-colors
-                ${activeDest === i
-                  ? 'bg-sand text-white border-sand shadow-sm'
-                  : 'bg-linen text-stone border-sand/30'
-                }`}
-            >
-              <span className="text-xl">{d.icon}</span>
-              <span>{d[`name${cap(lang)}`] || d.nameZh}</span>
-            </button>
-          ))}
-        </div>
+        {/* 目的地切换（多于1个才显示） */}
+        {destinations.length > 1 && (
+          <div className="flex gap-3 mb-5">
+            {destinations.map((d: any, i: number) => (
+              <button
+                key={d.nameEn}
+                onClick={() => setActiveDest(i)}
+                className={`flex-1 flex items-center justify-center gap-2 py-3 rounded-2xl text-sm font-medium border transition-colors
+                  ${activeDest === i
+                    ? 'bg-sand text-white border-sand shadow-sm'
+                    : 'bg-linen text-stone border-sand/30'
+                  }`}
+              >
+                <span className="text-xl">{d.icon}</span>
+                <span>{d[`name${cap(lang)}`] || d.nameZh}</span>
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* 目的地交通卡片 */}
         <div className="bg-linen rounded-2xl border border-sand/20 overflow-hidden mb-5">

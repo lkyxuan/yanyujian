@@ -124,50 +124,6 @@
       "tipEn": "Buy park tickets in advance (~¥248/person). Book 3–7 days ahead on holidays.",
       "tipKo": "사전 티켓 구매 권장 (약 248위안/인). 성수기 3~7일 전 예약.",
       "tipJa": "景区チケット（約248元/人）は事前購入を。連休は3〜7日前に。"
-    },
-    {
-      "icon": "🌫️",
-      "nameZh": "天门山",
-      "nameEn": "Tianmen Mountain",
-      "nameKo": "톈먼산",
-      "nameJa": "天門山",
-      "tagline": {
-        "zh": "亚洲最高海拔公路 · 玻璃栈道 · 天门洞奇观，市区内即可乘索道",
-        "en": "Asia's highest road · glass walkway · Tianmen Cave. Cable car departs from the city.",
-        "ko": "아시아 최고 고도 도로·유리 잔도·톈먼 동굴. 시내에서 케이블카 출발.",
-        "ja": "アジア最高標高の道路・ガラス桟道・天門洞。市内からロープウェイで。"
-      },
-      "transport": [
-        {
-          "mode": "🚕",
-          "labelZh": "打车至索道站",
-          "labelEn": "Taxi to cable car station",
-          "labelKo": "케이블카 역까지 택시",
-          "labelJa": "ロープウェイ駅までタクシー",
-          "detailZh": "旅社打车约 10–15 分钟，约 10–20 元，到天门山索道下站",
-          "detailEn": "~10–15 min from hostel, ~¥10–20, to Tianmen Mountain cable car lower station",
-          "detailKo": "호스텔에서 약 10~15분, 약 10~20위안, 톈먼산 케이블카 하부역까지",
-          "detailJa": "ホステルから約10〜15分、約10〜20元、天門山ロープウェイ下駅まで",
-          "diDiLat": 29.1255,
-          "diDiLng": 110.4812,
-          "diDiNameZh": "天门山索道下站"
-        },
-        {
-          "mode": "🚠",
-          "labelZh": "索道上山",
-          "labelEn": "Cable car up",
-          "labelKo": "케이블카 탑승",
-          "labelJa": "ロープウェイ",
-          "detailZh": "索道约 30 分钟到山顶，全套票（含索道+观光车）约 258 元/人",
-          "detailEn": "~30 min cable car to the summit. Full ticket (cable car + shuttle bus) ~¥258/person",
-          "detailKo": "케이블카 약 30분으로 정상. 풀 티켓(케이블카+셔틀버스) 약 258위안/인",
-          "detailJa": "ロープウェイ約30分で山頂へ。フルチケット（ロープウェイ+シャトル）約258元/人"
-        }
-      ],
-      "tipZh": "山顶较凉，请带外套；雨天云雾更有仙境感",
-      "tipEn": "It's cool at the top — bring a jacket. Misty rainy days are magical.",
-      "tipKo": "정상은 서늘하니 겉옷 필수. 안개 낀 날은 신비로운 풍경.",
-      "tipJa": "山頂は涼しいので上着を。霧の日は幻想的な景色に。"
     }
   ],
 
