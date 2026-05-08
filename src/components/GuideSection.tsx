@@ -10,7 +10,7 @@ export default function GuideSection() {
   const [activeTab, setActiveTab] = useState<Tab>('attractions')
   const t = useTranslations('guide')
   const locale = useLocale()
-  const isEn = locale === 'en'
+  const lang = locale === 'en' ? 'en' : locale === 'ko' ? 'ko' : 'zh'
 
   const tabs: { key: Tab; label: string; icon: string }[] = [
     { key: 'attractions', label: t('attractions'), icon: '🏔️' },
@@ -53,11 +53,11 @@ export default function GuideSection() {
                   <span className="text-3xl">{a.icon}</span>
                   <div className="flex-1 min-w-0">
                     <h3 className="font-serif font-bold text-stone text-base leading-snug">
-                      {isEn ? a.nameEn : a.nameZh}
+                      {lang === 'ko' ? a.nameKo : lang === 'en' ? a.nameEn : a.nameZh}
                     </h3>
-                    <p className="text-stone/50 text-xs mb-2">{isEn ? a.nameZh : a.nameEn}</p>
-                    <p className="text-stone/70 text-sm leading-relaxed">{isEn ? a.descEn : a.descZh}</p>
-                    <p className="text-moss text-sm mt-2">💡 {isEn ? a.tips.en : a.tips.zh}</p>
+                    <p className="text-stone/50 text-xs mb-2">{lang === 'ko' ? a.nameZh : lang === 'en' ? a.nameZh : a.nameEn}</p>
+                    <p className="text-stone/70 text-sm leading-relaxed">{lang === 'ko' ? a.descKo : lang === 'en' ? a.descEn : a.descZh}</p>
+                    <p className="text-moss text-sm mt-2">💡 {(a.tips as any)[lang]}</p>
                   </div>
                 </div>
               </div>
@@ -70,27 +70,29 @@ export default function GuideSection() {
           <div className="space-y-5">
             <div className="bg-linen rounded-2xl p-5 border border-sand/20 space-y-4">
               <div>
-                <h3 className="font-bold text-stone text-sm mb-1">✈️ {isEn ? 'From Airport' : '从机场'}</h3>
-                <p className="text-stone/70 text-sm">{isEn ? guideData.transport.fromAirport.en : guideData.transport.fromAirport.zh}</p>
+                <h3 className="font-bold text-stone text-sm mb-1">✈️ {lang === 'en' ? 'From Airport' : lang === 'ko' ? '공항에서' : '从机场'}</h3>
+                <p className="text-stone/70 text-sm">{(guideData.transport.fromAirport as any)[lang]}</p>
               </div>
               <div className="border-t border-sand/20 pt-4">
-                <h3 className="font-bold text-stone text-sm mb-1">🚄 {isEn ? 'From Train Station' : '从高铁站'}</h3>
-                <p className="text-stone/70 text-sm">{isEn ? guideData.transport.fromStation.en : guideData.transport.fromStation.zh}</p>
+                <h3 className="font-bold text-stone text-sm mb-1">🚄 {lang === 'en' ? 'From Train Station' : lang === 'ko' ? '기차역에서' : '从高铁站'}</h3>
+                <p className="text-stone/70 text-sm">{(guideData.transport.fromStation as any)[lang]}</p>
               </div>
               <div className="border-t border-sand/20 pt-4">
-                <h3 className="font-bold text-stone text-sm mb-1">🚕 {isEn ? 'Taxi & DiDi' : '打车'}</h3>
-                <p className="text-stone/70 text-sm">{isEn ? guideData.transport.taxiTips.en : guideData.transport.taxiTips.zh}</p>
+                <h3 className="font-bold text-stone text-sm mb-1">🚕 {lang === 'en' ? 'Taxi & DiDi' : lang === 'ko' ? '택시 & 디디' : '打车'}</h3>
+                <p className="text-stone/70 text-sm">{(guideData.transport.taxiTips as any)[lang]}</p>
               </div>
             </div>
 
             {/* 打车卡片 */}
             <div>
               <h3 className="font-serif text-lg text-stone mb-2">
-                📍 {isEn ? 'Taxi Destination Cards' : '打车目的地卡片'}
+                📍 {lang === 'en' ? 'Taxi Destination Cards' : lang === 'ko' ? '택시 목적지 카드' : '打车目的地卡片'}
               </h3>
               <p className="text-stone/50 text-xs mb-4">
-                {isEn
+                {lang === 'en'
                   ? 'Tap to copy the Chinese address, then show your phone to the driver.'
+                  : lang === 'ko'
+                  ? '주소를 복사하여 택시 기사에게 보여주세요.'
                   : '点击复制中文地址，展示给司机即可。'}
               </p>
               <div className="space-y-3">
@@ -109,9 +111,9 @@ export default function GuideSection() {
               <div key={item.nameEn} className="bg-linen rounded-2xl p-4 border border-sand/20 flex gap-4 items-start">
                 <span className="text-3xl flex-shrink-0">{item.icon}</span>
                 <div>
-                  <h3 className="font-serif font-bold text-stone text-base">{isEn ? item.nameEn : item.nameZh}</h3>
-                  <p className="text-stone/50 text-xs mb-1">{isEn ? item.nameZh : item.nameEn}</p>
-                  <p className="text-stone/70 text-sm">{isEn ? item.descEn : item.descZh}</p>
+                  <h3 className="font-serif font-bold text-stone text-base">{lang === 'ko' ? (item as any).nameKo : lang === 'en' ? item.nameEn : item.nameZh}</h3>
+                  <p className="text-stone/50 text-xs mb-1">{lang === 'ko' ? item.nameZh : lang === 'en' ? item.nameZh : item.nameEn}</p>
+                  <p className="text-stone/70 text-sm">{lang === 'ko' ? (item as any).descKo : lang === 'en' ? item.descEn : item.descZh}</p>
                 </div>
               </div>
             ))}
@@ -125,8 +127,8 @@ export default function GuideSection() {
               <div key={tip.titleEn} className="bg-linen rounded-2xl p-4 border border-sand/20 flex gap-4 items-start">
                 <span className="text-3xl flex-shrink-0">{tip.icon}</span>
                 <div>
-                  <h3 className="font-bold text-stone text-base mb-1">{isEn ? tip.titleEn : tip.titleZh}</h3>
-                  <p className="text-stone/70 text-sm leading-relaxed">{isEn ? tip.descEn : tip.descZh}</p>
+                  <h3 className="font-bold text-stone text-base mb-1">{lang === 'ko' ? (tip as any).titleKo : lang === 'en' ? tip.titleEn : tip.titleZh}</h3>
+                  <p className="text-stone/70 text-sm leading-relaxed">{lang === 'ko' ? (tip as any).descKo : lang === 'en' ? tip.descEn : tip.descZh}</p>
                 </div>
               </div>
             ))}
@@ -137,7 +139,7 @@ export default function GuideSection() {
         {activeTab === 'emergency' && (
           <div className="space-y-3">
             <p className="text-stone/50 text-sm text-center mb-4">
-              {isEn ? 'Tap a number to call directly.' : '点击号码可直接拨打。'}
+              {lang === 'en' ? 'Tap a number to call directly.' : lang === 'ko' ? '번호를 눌러 바로 전화하세요.' : '点击号码可直接拨打。'}
             </p>
             {guideData.emergency.map((item) => (
               <div key={item.label} className="flex items-center justify-between bg-linen rounded-2xl px-5 py-4 border border-sand/20">

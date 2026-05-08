@@ -5,7 +5,7 @@ export const guideData = {
   transport: guideContent.transport,
   attractions: guideContent.attractions.map((a) => ({
     ...a,
-    tips: { zh: a.tipZh, en: a.tipEn },
+    tips: { zh: a.tipZh, en: a.tipEn, ko: a.tipKo },
   })),
   food: guideContent.food,
   tips: guideContent.tips,

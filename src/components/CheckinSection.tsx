@@ -4,7 +4,7 @@ import { checkinData } from '@/data/checkin'
 export default function CheckinSection() {
   const t = useTranslations('checkin')
   const locale = useLocale()
-  const isEn = locale === 'en'
+  const lang = locale === 'en' ? 'en' : locale === 'ko' ? 'ko' : 'zh'
 
   return (
     <section id="checkin" className="py-16 px-4 bg-white/50">
@@ -47,13 +47,13 @@ export default function CheckinSection() {
         {/* 房规列表 */}
         <div className="bg-linen rounded-2xl p-5 mb-6 border border-sand/20">
           <h3 className="font-serif text-lg text-stone mb-4">
-            {isEn ? 'House Rules' : '温馨提示'}
+            {lang === 'en' ? 'House Rules' : lang === 'ko' ? '하우스 룰' : '温馨提示'}
           </h3>
           <ul className="space-y-3">
             {checkinData.rules.map((rule, i) => (
               <li key={i} className="flex items-center gap-3">
                 <span className="text-xl w-7 text-center flex-shrink-0">{rule.icon}</span>
-                <span className="text-stone/80 text-sm">{isEn ? rule.en : rule.zh}</span>
+                <span className="text-stone/80 text-sm">{(rule as any)[lang]}</span>
               </li>
             ))}
           </ul>

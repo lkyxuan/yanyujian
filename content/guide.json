@@ -4,15 +4,18 @@
   "transport": {
     "fromAirport": {
       "zh": "荷花机场→市区约 45 分钟，可乘机场巴士或打车。",
-      "en": "Hehua Airport to city center: ~45 min by airport shuttle or taxi."
+      "en": "Hehua Airport to city center: ~45 min by airport shuttle or taxi.",
+      "ko": "허화 공항→시내 약 45분, 공항버스 또는 택시 이용 가능."
     },
     "fromStation": {
       "zh": "张家界西高铁站→市区约 20 分钟，乘地铁 1 号线或打车。",
-      "en": "Zhangjiajie West Railway Station to city: ~20 min by metro Line 1 or taxi."
+      "en": "Zhangjiajie West Railway Station to city: ~20 min by metro Line 1 or taxi.",
+      "ko": "장가계서역→시내 약 20분, 지하철 1호선 또는 택시."
     },
     "taxiTips": {
       "zh": "推荐用滴滴打车，比路边出租更便宜，有英文界面。起步价 7 元。",
-      "en": "Use DiDi (Chinese Uber) — cheaper than street taxis and has an English interface. Starting fare ¥7."
+      "en": "Use DiDi (Chinese Uber) — cheaper than street taxis and has an English interface. Starting fare ¥7.",
+      "ko": "디디추싱(중국판 우버) 이용을 추천합니다. 일반 택시보다 저렴하고 영어 인터페이스 제공. 기본요금 7위안."
     }
   },
 
@@ -21,37 +24,49 @@
       "icon": "🏔️",
       "nameZh": "张家界国家森林公园",
       "nameEn": "Zhangjiajie National Forest Park",
+      "nameKo": "장가계 국가삼림공원",
       "descZh": "世界首个国家森林公园，《阿凡达》取景地，石英砂岩峰林绝景。",
       "descEn": "The world's first national forest park and Avatar filming location. Towering sandstone pillars rise from the mist.",
+      "descKo": "세계 최초 국립삼림공원, 아바타 촬영지. 석영사암 봉우리가 안개 속에 솟아 있습니다.",
       "tipZh": "建议游览 2 天，购两日票更划算",
-      "tipEn": "Allow 2 days. A 2-day ticket offers better value."
+      "tipEn": "Allow 2 days. A 2-day ticket offers better value.",
+      "tipKo": "2일 관람 권장, 2일권이 더 경제적"
     },
     {
       "icon": "🌫️",
       "nameZh": "天门山",
       "nameEn": "Tianmen Mountain",
+      "nameKo": "톈먼산",
       "descZh": "亚洲最高海拔公路+玻璃栈道+天门洞奇观，缆车约 30 分钟。",
       "descEn": "Asia's highest altitude road, glass walkway, and the iconic Tianmen Cave. Cable car takes ~30 minutes.",
+      "descKo": "아시아 최고 고도 도로+유리 잔도+톈먼 동굴, 케이블카 약 30분.",
       "tipZh": "山顶较凉，请带外套",
-      "tipEn": "It gets cold at the top — bring a jacket."
+      "tipEn": "It gets cold at the top — bring a jacket.",
+      "tipKo": "정상은 서늘하니 겉옷을 챙기세요"
     },
     {
       "icon": "🌉",
       "nameZh": "张家界大峡谷玻璃桥",
       "nameEn": "Glass Bridge (Grand Canyon)",
+      "nameKo": "유리다리 (그랜드캐니언)",
       "descZh": "世界最长最高玻璃桥，悬于峡谷之上，刺激感拉满。",
       "descEn": "World's longest and highest glass bridge, suspended over a spectacular canyon.",
+      "descKo": "세계에서 가장 길고 높은 유리다리, 협곡 위에 걸쳐 있어 스릴 만점.",
       "tipZh": "需提前网上购票，不接受现场购票",
-      "tipEn": "Advance online booking required — no on-site tickets."
+      "tipEn": "Advance online booking required — no on-site tickets.",
+      "tipKo": "온라인 사전 예약 필수, 현장 구매 불가"
     },
     {
       "icon": "🦕",
       "nameZh": "黄龙洞",
       "nameEn": "Yellow Dragon Cave",
+      "nameKo": "황룡동굴",
       "descZh": "亚洲最壮观的溶洞之一，钟乳石景观令人叹为观止。",
       "descEn": "One of Asia's most spectacular caves with breathtaking stalactite formations.",
+      "descKo": "아시아에서 가장 장관인 동굴 중 하나, 종유석이 압도적입니다.",
       "tipZh": "游览约 1.5 小时",
-      "tipEn": "Allow ~1.5 hours."
+      "tipEn": "Allow ~1.5 hours.",
+      "tipKo": "관람 약 1.5시간"
     }
   ],
 
@@ -60,29 +75,37 @@
       "icon": "🍲",
       "nameZh": "土家三下锅",
       "nameEn": "Tujia Three-Ingredient Hot Pot",
+      "nameKo": "투자족 삼합 훠궈",
       "descZh": "土家族招牌菜，猪肚、猪蹄、香肠同锅，香辣入味。",
-      "descEn": "Tujia signature dish: pork tripe, trotters, and sausage in a spicy broth."
+      "descEn": "Tujia signature dish: pork tripe, trotters, and sausage in a spicy broth.",
+      "descKo": "투자족 대표 요리, 돼지 내장·족발·소시지를 한 솥에. 매콤하고 진한 맛."
     },
     {
       "icon": "🫘",
       "nameZh": "米豆腐",
       "nameEn": "Rice Tofu",
+      "nameKo": "쌀 두부",
       "descZh": "米浆制成的嫩豆腐，淋上辣椒酱，清爽开胃。",
-      "descEn": "Silky tofu made from rice milk, topped with chili sauce. Light and refreshing."
+      "descEn": "Silky tofu made from rice milk, topped with chili sauce. Light and refreshing.",
+      "descKo": "쌀즙으로 만든 부드러운 두부에 고추장 양념. 담백하고 상큼한 맛."
     },
     {
       "icon": "🍚",
       "nameZh": "社饭",
       "nameEn": "She Fan (Herb Rice)",
+      "nameKo": "사판 (약초 찹쌀밥)",
       "descZh": "混入野菜和腊肉的香糯米饭，土家族传统节日食物。",
-      "descEn": "Sticky rice with wild herbs and cured pork — a traditional Tujia festival dish."
+      "descEn": "Sticky rice with wild herbs and cured pork — a traditional Tujia festival dish.",
+      "descKo": "야채와 훈제 돼지고기를 넣은 찹쌀밥, 투자족 전통 명절 음식."
     },
     {
       "icon": "🥤",
       "nameZh": "葛根粉",
       "nameEn": "Kudzu Root Drink",
+      "nameKo": "칡뿌리 음료",
       "descZh": "天然葛根制成，清热解毒，景区内随处可见。",
-      "descEn": "A cooling herbal drink made from kudzu root — sold everywhere near the parks."
+      "descEn": "A cooling herbal drink made from kudzu root — sold everywhere near the parks.",
+      "descKo": "천연 칡뿌리로 만든 음료, 열을 내리는 효과. 공원 주변 어디서나 판매."
     }
   ],
 
@@ -91,36 +114,46 @@
       "icon": "📱",
       "titleZh": "必备 App",
       "titleEn": "Essential Apps",
+      "titleKo": "필수 앱",
       "descZh": "滴滴（打车）、美团（订餐）、微信（支付+通讯）、支付宝（支付）",
-      "descEn": "DiDi (taxi), Meituan (food), WeChat (pay + chat), Alipay (pay)"
+      "descEn": "DiDi (taxi), Meituan (food), WeChat (pay + chat), Alipay (pay)",
+      "descKo": "디디추싱(택시), 메이퇀(배달/식당), 위챗(결제+소통), 알리페이(결제)"
     },
     {
       "icon": "💳",
       "titleZh": "移动支付",
       "titleEn": "Mobile Payment",
+      "titleKo": "모바일 결제",
       "descZh": "中国绝大多数商家只接受微信或支付宝，建议提前绑定境外信用卡开通。",
-      "descEn": "Most shops only accept WeChat Pay or Alipay. Link a foreign credit card before arriving."
+      "descEn": "Most shops only accept WeChat Pay or Alipay. Link a foreign credit card before arriving.",
+      "descKo": "중국 대부분의 상점은 위챗페이 또는 알리페이만 사용 가능합니다. 해외 신용카드를 연동해 두세요."
     },
     {
       "icon": "🌐",
       "titleZh": "VPN",
       "titleEn": "VPN / Internet",
+      "titleKo": "VPN / 인터넷",
       "descZh": "Google、Instagram、WhatsApp 在中国需要 VPN，请出发前在国内下载并设置好。",
-      "descEn": "Google, Instagram, and WhatsApp require a VPN in China. Set it up before arriving."
+      "descEn": "Google, Instagram, and WhatsApp require a VPN in China. Set it up before arriving.",
+      "descKo": "중국에서 구글, 인스타그램, 왓츠앱은 VPN 없이 사용 불가. 출발 전에 설치해 두세요."
     },
     {
       "icon": "🌤️",
       "titleZh": "最佳季节",
       "titleEn": "Best Time to Visit",
+      "titleKo": "여행 최적 시기",
       "descZh": "春（4–6月）和秋（9–11月）最美，夏季人多闷热，冬季山顶有云海奇景。",
-      "descEn": "Spring (Apr–Jun) and autumn (Sep–Nov) are best. Summer is crowded; winter brings stunning sea-of-clouds."
+      "descEn": "Spring (Apr–Jun) and autumn (Sep–Nov) are best. Summer is crowded; winter brings stunning sea-of-clouds.",
+      "descKo": "봄(4~6월)과 가을(9~11월)이 최고, 여름은 붐비고 덥고, 겨울 정상에는 운해가 장관."
     },
     {
       "icon": "🎫",
       "titleZh": "提前购票",
       "titleEn": "Book Tickets Early",
+      "titleKo": "사전 티켓 예매",
       "descZh": "玻璃桥等热门景点必须提前网上购票，节假日需提前 3–7 天。",
-      "descEn": "The Glass Bridge and other popular spots require advance online booking. Book 3–7 days ahead on holidays."
+      "descEn": "The Glass Bridge and other popular spots require advance online booking. Book 3–7 days ahead on holidays.",
+      "descKo": "유리다리 등 인기 명소는 온라인 사전 예매 필수. 성수기에는 3~7일 전에 예약하세요."
     }
   ]
 }
