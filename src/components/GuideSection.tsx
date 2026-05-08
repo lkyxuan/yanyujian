@@ -7,7 +7,7 @@ import TaxiCard from './TaxiCard'
 type Tab = 'transport' | 'food' | 'tips' | 'emergency'
 
 function diDiUrl(lat: number, lng: number, name: string) {
-  return `openapp.diditaxi://com.xiaojukeji.didi/passenger/send_to?dest_lat=${lat}&dest_lng=${lng}&dest_name=${encodeURIComponent(name)}`
+  return `diditaxi://passenger/send_to?dest_lat=${lat}&dest_lng=${lng}&dest_name=${encodeURIComponent(name)}`
 }
 
 const DIDI_LABEL: Record<string, string> = {
