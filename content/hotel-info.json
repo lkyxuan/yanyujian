@@ -6,8 +6,8 @@
     "password": "66668888"
   },
 
-  "checkinTime": "14:00",
-  "checkoutTime": "12:00",
+  "checkinTime": "12:00",
+  "checkoutTime": "14:00",
   "curfew": "23:00 – 次日 07:00（刷卡进出）",
 
   "contact": {
