@@ -12,7 +12,8 @@
 
   "contact": {
     "wechat": "yanyujian_hostel",
-    "phone": "+86-744-XXXXXXXX"
+    "phone": "+86-744-XXXXXXXX",
+    "wechatQrImage": "/images/wechat-qr.png"
   },
 
   "rules": [

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
 import { checkinData } from '@/data/checkin'
 
@@ -61,18 +62,28 @@ export default function CheckinSection() {
 
         {/* 联系方式 */}
         <div className="bg-stone rounded-2xl p-5 text-center">
-          <p className="text-linen/60 text-sm mb-3">{t('contact')}</p>
-          <div className="space-y-2">
-            <p className="text-linen font-medium">
-              <span className="text-sand">WeChat:</span> {checkinData.contact.wechat}
+          <p className="text-linen/60 text-sm mb-4">{t('contact')}</p>
+
+          {/* 微信二维码 */}
+          <div className="flex flex-col items-center mb-4">
+            <Image
+              src={checkinData.contact.wechatQrImage}
+              alt="WeChat QR Code"
+              width={180}
+              height={180}
+              className="rounded-xl"
+            />
+            <p className="text-linen/50 text-xs mt-2">
+              {lang === 'ko' ? '위챗 QR코드 스캔' : lang === 'en' ? 'Scan to add on WeChat' : '扫码添加微信'}
             </p>
-            <a
-              href={`tel:${checkinData.contact.phone}`}
-              className="block text-linen font-medium hover:text-sand transition-colors"
-            >
-              📞 {checkinData.contact.phone}
-            </a>
           </div>
+
+          <a
+            href={`tel:${checkinData.contact.phone}`}
+            className="block text-linen font-medium active:text-sand transition-colors"
+          >
+            📞 {checkinData.contact.phone}
+          </a>
         </div>
       </div>
     </section>
