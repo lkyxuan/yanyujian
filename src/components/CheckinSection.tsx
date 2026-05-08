@@ -46,9 +46,30 @@ export default function CheckinSection() {
         </div>
 
         {/* 浴室说明 */}
-        <div className="bg-linen rounded-2xl p-4 mb-6 border border-sand/20 flex items-start gap-3">
-          <span className="text-2xl">🚿</span>
-          <p className="text-stone/80 text-sm leading-relaxed">{(checkinData.bathroom as any)[lang]}</p>
+        <div className="bg-linen rounded-2xl p-5 mb-6 border border-sand/20">
+          <h3 className="font-serif text-lg text-stone mb-3">🚿 {lang === 'en' ? 'Bathroom' : lang === 'ko' ? '욕실' : '浴室'}</h3>
+          <div className="space-y-3">
+            <div className="flex gap-3">
+              <div className="flex-1 bg-white/60 rounded-xl p-3 text-center">
+                <p className="text-xl mb-0.5">♀️</p>
+                <p className="font-bold text-stone text-sm">{(checkinData.bathroom as any).women.floors}</p>
+                <p className="text-stone/50 text-xs">{(checkinData.bathroom as any).women[lang]}</p>
+              </div>
+              <div className="flex-1 bg-white/60 rounded-xl p-3 text-center">
+                <p className="text-xl mb-0.5">♂️</p>
+                <p className="font-bold text-stone text-sm">{(checkinData.bathroom as any).men.floors}</p>
+                <p className="text-stone/50 text-xs">{(checkinData.bathroom as any).men[lang]}</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-2 text-stone/70 text-sm">
+              <span>💧</span>
+              <span>{(checkinData.bathroom as any).amenities[lang]}</span>
+            </div>
+            <div className="flex items-start gap-2 bg-sand/10 rounded-xl p-3 border border-sand/20">
+              <span className="text-base">🛁</span>
+              <p className="text-stone/80 text-sm">{(checkinData.bathroom as any).towel[lang]}</p>
+            </div>
+          </div>
         </div>
 
         {/* 联系方式 */}

@@ -9,9 +9,18 @@
   "checkinTime": "12:00",
   "checkoutTime": "14:00",
   "bathroom": {
-    "zh": "浴室在每层楼梯转角处。2–3层为女浴室，4–5层为男浴室。24小时热水，提供洗发水和沐浴露。如需浴巾请联系前台，一次性浴巾收费 5 元。",
-    "en": "Bathrooms are at the staircase landing on each floor. Floors 2–3: women's. Floors 4–5: men's. Hot water 24h, shampoo & body wash provided. Need a towel? Ask reception — disposable towels ¥5.",
-    "ko": "욕실은 각 층 계단 전환 부분에 있습니다. 2~3층: 여성용, 4~5층: 남성용. 온수 24시간 제공, 샴푸·바디워시 구비. 수건이 필요하시면 프런트에 문의하세요. 일회용 수건 5위안."
+    "women": { "floors": "2–3F", "zh": "女浴室", "en": "Women's", "ko": "여성용" },
+    "men":   { "floors": "4–5F", "zh": "男浴室", "en": "Men's",   "ko": "남성용" },
+    "amenities": {
+      "zh": "24小时热水 · 洗发水 · 沐浴露",
+      "en": "24h hot water · Shampoo · Body wash",
+      "ko": "온수 24시간 · 샴푸 · 바디워시"
+    },
+    "towel": {
+      "zh": "入住时请向前台领取，一次性浴巾 5 元 / 条",
+      "en": "Ask at check-in — disposable towels ¥5 each",
+      "ko": "체크인 시 프런트에서 요청하세요 · 일회용 수건 5위안"
+    }
   },
 
   "curfew": {
