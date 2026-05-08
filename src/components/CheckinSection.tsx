@@ -41,7 +41,7 @@ export default function CheckinSection() {
           <span className="text-2xl">🔒</span>
           <div>
             <p className="text-stone/50 text-xs">{t('curfew')}</p>
-            <p className="font-medium text-stone">{checkinData.curfew}</p>
+            <p className="font-medium text-stone">{(checkinData.curfew as any)[lang]}</p>
           </div>
         </div>
 
