@@ -120,10 +120,26 @@
           "diDiNameZh": "武陵源景区吴家峪口"
         }
       ],
-      "tipZh": "门票约 248 元/人，建议提前网上购买；节假日需提前 3–7 天",
-      "tipEn": "Park ticket ~¥248/person — buy online in advance. Book 3–7 days ahead on holidays.",
-      "tipKo": "입장권 약 248위안/인 · 온라인 사전 구매 권장 · 성수기 3~7일 전 예약",
-      "tipJa": "入園チケット約248元/人·事前ネット購入を。連休は3〜7日前に。"
+      "tips": [
+        {
+          "zh": "🎫 门票约 248 元/人，建议提前网上购买，节假日需提前 3–7 天",
+          "en": "🎫 Park ticket ~¥248/person — buy online. Book 3–7 days ahead on holidays.",
+          "ko": "🎫 입장권 약 248위안/인 · 온라인 사전 구매 권장 · 성수기 3~7일 전 예약",
+          "ja": "🎫 入園チケット約248元/人·事前ネット購入を。連休は3〜7日前に。"
+        },
+        {
+          "zh": "🛗 百龙天梯是世界最高室外电梯，高峰期排队约30分钟，建议早上8点前到",
+          "en": "🛗 Bailong Elevator is the world's tallest outdoor lift — queues up to 30 min at peak, arrive before 8am",
+          "ko": "🛗 바이룽 엘리베이터는 세계 최고 야외 엘리베이터 · 성수기 30분 대기 · 오전 8시 전 도착 권장",
+          "ja": "🛗 百龍天梯は世界最高の屋外エレベーター·ピーク時30分待ち·午前8時前到着推奨"
+        },
+        {
+          "zh": "👟 景区步行路段多，请穿舒适运动鞋，并备好饮用水",
+          "en": "👟 Lots of walking — wear comfortable shoes and bring plenty of water",
+          "ko": "👟 도보 구간이 많으니 편한 운동화와 충분한 물을 준비하세요",
+          "ja": "👟 歩く区間が多いです。履き慣れた靴と十分な水を持参してください"
+        }
+      ]
     },
     {
       "icon": "🌫️",
@@ -164,10 +180,26 @@
           "detailJa": "ロープウェイ約30分で山頂へ。フルチケット（ロープウェイ+シャトル）約258元/人"
         }
       ],
-      "tipZh": "山顶较凉，请带外套；雨天云雾更有仙境感",
-      "tipEn": "It's cool at the top — bring a jacket. Misty rainy days are magical.",
-      "tipKo": "정상은 서늘하니 겉옷 필수. 안개 낀 날은 신비로운 풍경.",
-      "tipJa": "山頂は涼しいので上着を。霧の日は幻想的な景色に。"
+      "tips": [
+        {
+          "zh": "🧥 山顶气温比市区低 5–8°C，即使夏天也请带外套",
+          "en": "🧥 Summit is 5–8°C cooler than the city — bring a jacket even in summer",
+          "ko": "🧥 정상은 시내보다 5~8°C 낮습니다 · 여름에도 겉옷 필수",
+          "ja": "🧥 山頂は市内より5〜8°C低い·夏でも上着を"
+        },
+        {
+          "zh": "👟 玻璃栈道需套鞋套（景区免费提供），雾天可能临时关闭",
+          "en": "👟 Shoe covers required for the glass walkway (free at the park) — may close in heavy fog",
+          "ko": "👟 유리 잔도는 신발 커버 착용 필수 (현장 무료 제공) · 짙은 안개 시 임시 폐쇄",
+          "ja": "👟 ガラス桟道はシューズカバー必須（無料提供）·濃霧時は閉鎖の可能性あり"
+        },
+        {
+          "zh": "🌫️ 雨雾天更有仙境感，但需注意路面湿滑",
+          "en": "🌫️ Misty days are magical — but watch your step on wet paths",
+          "ko": "🌫️ 안개 낀 날은 더 신비롭습니다 · 젖은 바닥 주의",
+          "ja": "🌫️ 霧の日は幻想的·濡れた路面に注意"
+        }
+      ]
     }
   ],
 

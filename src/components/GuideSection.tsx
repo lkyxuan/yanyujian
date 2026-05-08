@@ -122,10 +122,13 @@ export default function GuideSection() {
             })}
           </div>
 
-          <div className="mx-5 mb-5 flex gap-2 items-start text-moss text-xs">
-            <span>💡</span>
-            <p>{dest[`tip${cap(lang)}`]}</p>
-          </div>
+          {dest.tips && (
+            <div className="mx-5 mb-5 space-y-1.5">
+              {dest.tips.map((tip: any, i: number) => (
+                <p key={i} className="text-moss text-xs leading-relaxed">{tip[lang]}</p>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* 回旅社快捷按钮 */}
