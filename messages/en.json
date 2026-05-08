@@ -16,7 +16,8 @@
     "checkin_time": "Check-in Time",
     "checkout_time": "Check-out Time",
     "curfew": "Curfew",
-    "contact": "Contact Reception"
+    "contact": "Contact Reception",
+    "contact_fallback": "If you can't reach us by phone, please contact us through your booking platform."
   },
   "story": {
     "title": "About Yanyu Jian Art Hostel",

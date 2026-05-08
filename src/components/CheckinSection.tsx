@@ -80,10 +80,11 @@ export default function CheckinSection() {
 
           <a
             href={`tel:${checkinData.contact.phone}`}
-            className="block text-linen font-medium active:text-sand transition-colors"
+            className="block text-linen font-medium active:text-sand transition-colors mb-3"
           >
             📞 {checkinData.contact.phone}
           </a>
+          <p className="text-linen/40 text-xs">{t('contact_fallback')}</p>
         </div>
       </div>
     </section>

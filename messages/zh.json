@@ -16,7 +16,8 @@
     "checkin_time": "入住时间",
     "checkout_time": "退房时间",
     "curfew": "门禁时间",
-    "contact": "联系前台"
+    "contact": "联系前台",
+    "contact_fallback": "如果您无法打通电话，可以通过订房平台和我们联系。"
   },
   "story": {
     "title": "关于岩语间文青旅社",

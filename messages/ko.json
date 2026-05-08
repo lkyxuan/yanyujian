@@ -16,7 +16,8 @@
     "checkin_time": "체크인 시간",
     "checkout_time": "체크아웃 시간",
     "curfew": "통금 시간",
-    "contact": "프런트 연락"
+    "contact": "프런트 연락",
+    "contact_fallback": "전화 연결이 어려우시면 예약 플랫폼을 통해 연락해 주세요."
   },
   "story": {
     "title": "옌위젠 소개",
