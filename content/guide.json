@@ -5,27 +5,32 @@
     "fromAirport": {
       "zh": "荷花机场→市区约 45 分钟，可乘机场巴士或打车。如直奔景区，打的士前往森林公园南门约 30 公里 / 45 分钟，费用约 80–120 元。",
       "en": "Hehua Airport to city center: ~45 min by airport shuttle or taxi. For a direct trip to the park, a taxi to the Forest Park South Gate is ~30 km / 45 min, around ¥80–120.",
-      "ko": "허화 공항→시내 약 45분, 공항버스 또는 택시. 공원 직행 시: 삼림공원 남문까지 택시 약 30km/45분, 요금 80~120위안."
+      "ko": "허화 공항→시내 약 45분, 공항버스 또는 택시. 공원 직행 시: 삼림공원 남문까지 택시 약 30km/45분, 요금 80~120위안.",
+      "ja": "荷花空港→市内約45分、空港バスまたはタクシー。公園直行の場合：南門まで約30km/45分、80〜120元。"
     },
     "fromStation": {
       "zh": "张家界西高铁站→市区约 20 分钟，乘地铁 1 号线或打车。如直奔景区，打的士前往森林公园南门约 30 公里 / 45 分钟，费用约 80–120 元；或至武陵源吴家峪口约 35 公里，费用相近。",
       "en": "Zhangjiajie West Railway Station to city: ~20 min by metro Line 1 or taxi. For a direct trip, a taxi to Forest Park South Gate is ~30 km / 45 min, around ¥80–120; to Wulingyuan Wujiayukou Gate ~35 km, similar fare.",
-      "ko": "장가계서역→시내 약 20분, 지하철 1호선 또는 택시. 공원 직행 시: 삼림공원 남문 약 30km/45분, 80~120위안; 우링위안 우자위커우 문 약 35km, 비슷한 요금."
+      "ko": "장가계서역→시내 약 20분, 지하철 1호선 또는 택시. 공원 직행 시: 삼림공원 남문 약 30km/45분, 80~120위안; 우링위안 우자위커우 문 약 35km, 비슷한 요금.",
+      "ja": "張家界西駅→市内約20分、地下鉄1号線またはタクシー。公園直行：南門まで約30km/45分、80〜120元；武陵源呉家峪口まで約35km、同程度の料金。"
     },
     "taxiTips": {
       "zh": "推荐用滴滴打车，比路边出租更便宜，有英文界面。起步价 7 元。",
       "en": "Use DiDi (Chinese Uber) — cheaper than street taxis and has an English interface. Starting fare ¥7.",
-      "ko": "디디추싱(중국판 우버) 이용을 추천합니다. 일반 택시보다 저렴하고 영어 인터페이스 제공. 기본요금 7위안."
+      "ko": "디디추싱(중국판 우버) 이용을 추천합니다. 일반 택시보다 저렴하고 영어 인터페이스 제공. 기본요금 7위안.",
+      "ja": "DiDi（中国版Uber）がおすすめ。流しのタクシーより安く、英語対応あり。初乗り7元。"
     },
     "toBusStation": {
       "zh": "岩语间步行至市中心汽车站（永定区子午路 2 号，奥莱广场旁）约 1.2 公里 / 15 分钟，打车约 5 分钟 / 6–8 元（起步价），或乘 1/2/6/7 路公交（1 元，2 站）。汽车站咨询电话：0744-8305599。",
       "en": "From hostel to Central Bus Station (2 Ziwu Rd, near Aolai Plaza): walk ~1.2 km / 15 min, taxi ~5 min / ¥6–8, or bus 1/2/6/7 (¥1, 2 stops). Bus station hotline: 0744-8305599.",
-      "ko": "호스텔→시내버스터미널(쯔우로 2번지, 아오라이 광장 근처): 도보 약 1.2km/15분, 택시 약 5분/6~8위안, 또는 버스 1/2/6/7번(1위안, 2정거장). 버스터미널 문의: 0744-8305599."
+      "ko": "호스텔→시내버스터미널(쯔우로 2번지, 아오라이 광장 근처): 도보 약 1.2km/15분, 택시 약 5분/6~8위안, 또는 버스 1/2/6/7번(1위안, 2정거장). 버스터미널 문의: 0744-8305599.",
+      "ja": "ホステル→市内バスターミナル（子午路2号、アウトレット広場隣）：徒歩約1.2km/15分、タクシー約5分/6〜8元、またはバス1/2/6/7番（1元、2停留所）。バスターミナル問合せ：0744-8305599。"
     },
     "toBusSchedule": {
       "zh": "线路1 → 森林公园门票站（南门·直达）\n10 分钟一班，首班 06:00 / 末班 18:30，票价 12 元，全程约 30 公里 / 45 分钟，直达门票站。\n\n线路2 → 武陵源景区汽车站（吴家峪口·袁家界方向）\n10 分钟一班，首班 06:00 / 末班 19:30，票价 13 元，全程约 35 公里 / 50 分钟；出站后步行或转 1/2 路公交（1 元）约 2 公里至吴家峪口门票站。\n\n线路3 → 中湖 / 天子山镇（杨家界·天子山方向）\n约一小时一班（按乘客多少灵活发车）。\n• 到杨家界门票站：在中湖下车，全程约 40 公里 / 1 小时 10 分，下车点距门票站约 2 公里，可步行或乘当地车辆。\n• 到天子山门票站：全程约 55 公里 / 1.5–2 小时；从天子山镇入园无需另付索道 / 电梯费，可直达天子山、杨家界、袁家界全区。",
       "en": "Route 1 → Forest Park South Gate ticket station (direct)\nEvery 10 min, first 06:00 / last 18:30, ¥12/person, ~30 km / 45 min, drops off at the ticket gate.\n\nRoute 2 → Wulingyuan Bus Station (Wujiayukou Gate / Yuanjiajiee)\nEvery 10 min, first 06:00 / last 19:30, ¥13/person, ~35 km / 50 min; then walk or take bus 1/2 (¥1) ~2 km to Wujiayukou ticket gate.\n\nRoute 3 → Zhonghu / Tianzi Mountain Town (Yangjie & Tianzi Mountain)\nRoughly hourly (departs when enough passengers). \n• To Yangjie gate: get off at Zhonghu, ~40 km / 1h10min, then walk or take local transport ~2 km to the gate.\n• To Tianzi Mountain gate: ~55 km / 1.5–2 h; entering here avoids cable car / elevator fees and gives direct access to Tianzi Mountain, Yangjie, and Yuanjiajiee.",
-      "ko": "노선1 → 삼림공원 남문 매표소 (직행)\n10분 간격, 첫차 06:00/막차 18:30, 12위안/인, 약 30km/45분, 매표소 앞 하차.\n\n노선2 → 우링위안 버스터미널 (우자위커우 문·위안자제 방향)\n10분 간격, 첫차 06:00/막차 19:30, 13위안/인, 약 35km/50분; 버스 1/2번(1위안) 환승 또는 도보 약 2km 우자위커우 매표소.\n\n노선3 → 중후/톈쯔산 진 (양자제·톈쯔산 방향)\n약 1시간 간격(만석 시 출발).\n• 양자제 매표소: 중후 하차, 약 40km/1시간10분, 매표소까지 약 2km 도보 또는 현지 차량.\n• 톈쯔산 매표소: 약 55km/1.5~2시간; 케이블카·엘리베이터 비용 없이 톈쯔산·양자제·위안자제 전 구역 직접 입장 가능."
+      "ko": "노선1 → 삼림공원 남문 매표소 (직행)\n10분 간격, 첫차 06:00/막차 18:30, 12위안/인, 약 30km/45분, 매표소 앞 하차.\n\n노선2 → 우링위안 버스터미널 (우자위커우 문·위안자제 방향)\n10분 간격, 첫차 06:00/막차 19:30, 13위안/인, 약 35km/50분; 버스 1/2번(1위안) 환승 또는 도보 약 2km 우자위커우 매표소.\n\n노선3 → 중후/톈쯔산 진 (양자제·톈쯔산 방향)\n약 1시간 간격(만석 시 출발).\n• 양자제 매표소: 중후 하차, 약 40km/1시간10분, 매표소까지 약 2km 도보 또는 현지 차량.\n• 톈쯔산 매표소: 약 55km/1.5~2시간; 케이블카·엘리베이터 비용 없이 톈쯔산·양자제·위안자제 전 구역 직접 입장 가능.",
+      "ja": "路線1 → 森林公園南門チケット売り場（直行）\n10分毎、始発06:00/終発18:30、12元/人、約30km/45分、チケット売り場前に停車。\n\n路線2 → 武陵源バスターミナル（呉家峪口門・袁家界方面）\n10分毎、始発06:00/終発19:30、13元/人、約35km/50分；下車後バス1/2番（1元）または徒歩約2kmで呉家峪口チケット売り場へ。\n\n路線3 → 中湖/天子山鎮（楊家界・天子山方面）\n約1時間毎（乗客数により変動）。\n• 楊家界チケット売り場：中湖下車、約40km/1時間10分、チケット売り場まで約2km徒歩または現地車両。\n• 天子山チケット売り場：約55km/1.5〜2時間；ここから入園するとロープウェイ・エレベーター代不要で天子山・楊家界・袁家界全域に直接アクセス可能。"
     }
   },
 
@@ -35,48 +40,60 @@
       "nameZh": "张家界国家森林公园",
       "nameEn": "Zhangjiajie National Forest Park",
       "nameKo": "장가계 국가삼림공원",
+      "nameJa": "張家界国家森林公園",
       "descZh": "世界首个国家森林公园，《阿凡达》取景地，石英砂岩峰林绝景。",
       "descEn": "The world's first national forest park and Avatar filming location. Towering sandstone pillars rise from the mist.",
       "descKo": "세계 최초 국립삼림공원, 아바타 촬영지. 석영사암 봉우리가 안개 속에 솟아 있습니다.",
+      "descJa": "世界初の国家森林公園、映画『アバター』のロケ地。石英砂岩の峰が霧の中にそびえ立つ絶景。",
       "tipZh": "建议游览 2 天，购两日票更划算",
       "tipEn": "Allow 2 days. A 2-day ticket offers better value.",
-      "tipKo": "2일 관람 권장, 2일권이 더 경제적"
+      "tipKo": "2일 관람 권장, 2일권이 더 경제적",
+      "tipJa": "2日間の観光がおすすめ。2日券がお得。"
     },
     {
       "icon": "🌫️",
       "nameZh": "天门山",
       "nameEn": "Tianmen Mountain",
       "nameKo": "톈먼산",
+      "nameJa": "天門山",
       "descZh": "亚洲最高海拔公路+玻璃栈道+天门洞奇观，缆车约 30 分钟。",
       "descEn": "Asia's highest altitude road, glass walkway, and the iconic Tianmen Cave. Cable car takes ~30 minutes.",
       "descKo": "아시아 최고 고도 도로+유리 잔도+톈먼 동굴, 케이블카 약 30분.",
+      "descJa": "アジア最高標高の道路＋ガラス桟道＋天門洞の絶景。ロープウェイ約30分。",
       "tipZh": "山顶较凉，请带外套",
       "tipEn": "It gets cold at the top — bring a jacket.",
-      "tipKo": "정상은 서늘하니 겉옷을 챙기세요"
+      "tipKo": "정상은 서늘하니 겉옷을 챙기세요",
+      "tipJa": "山頂は涼しいので上着をお持ちください。"
     },
     {
       "icon": "🌉",
       "nameZh": "张家界大峡谷玻璃桥",
       "nameEn": "Glass Bridge (Grand Canyon)",
       "nameKo": "유리다리 (그랜드캐니언)",
+      "nameJa": "ガラス橋（グランドキャニオン）",
       "descZh": "世界最长最高玻璃桥，悬于峡谷之上，刺激感拉满。",
       "descEn": "World's longest and highest glass bridge, suspended over a spectacular canyon.",
       "descKo": "세계에서 가장 길고 높은 유리다리, 협곡 위에 걸쳐 있어 스릴 만점.",
+      "descJa": "世界最長・最高のガラス橋。峡谷の上に架かり、スリル満点。",
       "tipZh": "需提前网上购票，不接受现场购票",
       "tipEn": "Advance online booking required — no on-site tickets.",
-      "tipKo": "온라인 사전 예약 필수, 현장 구매 불가"
+      "tipKo": "온라인 사전 예약 필수, 현장 구매 불가",
+      "tipJa": "要事前ネット予約。当日券なし。"
     },
     {
       "icon": "🦕",
       "nameZh": "黄龙洞",
       "nameEn": "Yellow Dragon Cave",
       "nameKo": "황룡동굴",
+      "nameJa": "黄龍洞",
       "descZh": "亚洲最壮观的溶洞之一，钟乳石景观令人叹为观止。",
       "descEn": "One of Asia's most spectacular caves with breathtaking stalactite formations.",
       "descKo": "아시아에서 가장 장관인 동굴 중 하나, 종유석이 압도적입니다.",
+      "descJa": "アジア屈指の鍾乳洞。圧倒的な鍾乳石の景観。",
       "tipZh": "游览约 1.5 小时",
       "tipEn": "Allow ~1.5 hours.",
-      "tipKo": "관람 약 1.5시간"
+      "tipKo": "관람 약 1.5시간",
+      "tipJa": "見学約1.5時間。"
     }
   ],
 
@@ -86,36 +103,44 @@
       "nameZh": "土家三下锅",
       "nameEn": "Tujia Three-Ingredient Hot Pot",
       "nameKo": "투자족 삼합 훠궈",
+      "nameJa": "トゥチャ族三種鍋",
       "descZh": "土家族招牌菜，猪肚、猪蹄、香肠同锅，香辣入味。",
       "descEn": "Tujia signature dish: pork tripe, trotters, and sausage in a spicy broth.",
-      "descKo": "투자족 대표 요리, 돼지 내장·족발·소시지를 한 솥에. 매콤하고 진한 맛."
+      "descKo": "투자족 대표 요리, 돼지 내장·족발·소시지를 한 솥에. 매콤하고 진한 맛.",
+      "descJa": "土家族の看板料理。豚モツ・豚足・腸詰めを一鍋で。辛くてコク深い味わい。"
     },
     {
       "icon": "🫘",
       "nameZh": "米豆腐",
       "nameEn": "Rice Tofu",
       "nameKo": "쌀 두부",
+      "nameJa": "米豆腐",
       "descZh": "米浆制成的嫩豆腐，淋上辣椒酱，清爽开胃。",
       "descEn": "Silky tofu made from rice milk, topped with chili sauce. Light and refreshing.",
-      "descKo": "쌀즙으로 만든 부드러운 두부에 고추장 양념. 담백하고 상큼한 맛."
+      "descKo": "쌀즙으로 만든 부드러운 두부에 고추장 양념. 담백하고 상큼한 맛.",
+      "descJa": "米汁で作った絹ごし豆腐にチリソースをかけた、さっぱり爽快な一品。"
     },
     {
       "icon": "🍚",
       "nameZh": "社饭",
       "nameEn": "She Fan (Herb Rice)",
       "nameKo": "사판 (약초 찹쌀밥)",
+      "nameJa": "社飯（薬草おこわ）",
       "descZh": "混入野菜和腊肉的香糯米饭，土家族传统节日食物。",
       "descEn": "Sticky rice with wild herbs and cured pork — a traditional Tujia festival dish.",
-      "descKo": "야채와 훈제 돼지고기를 넣은 찹쌀밥, 투자족 전통 명절 음식."
+      "descKo": "야채와 훈제 돼지고기를 넣은 찹쌀밥, 투자족 전통 명절 음식.",
+      "descJa": "山菜と燻製豚肉を混ぜ込んだもちもちのおこわ。土家族の伝統的な祭り料理。"
     },
     {
       "icon": "🥤",
       "nameZh": "葛根粉",
       "nameEn": "Kudzu Root Drink",
       "nameKo": "칡뿌리 음료",
+      "nameJa": "葛根粉ドリンク",
       "descZh": "天然葛根制成，清热解毒，景区内随处可见。",
       "descEn": "A cooling herbal drink made from kudzu root — sold everywhere near the parks.",
-      "descKo": "천연 칡뿌리로 만든 음료, 열을 내리는 효과. 공원 주변 어디서나 판매."
+      "descKo": "천연 칡뿌리로 만든 음료, 열을 내리는 효과. 공원 주변 어디서나 판매.",
+      "descJa": "天然の葛根から作った清涼飲料。解熱効果あり。公園周辺で広く販売。"
     }
   ],
 
@@ -125,45 +150,55 @@
       "titleZh": "必备 App",
       "titleEn": "Essential Apps",
       "titleKo": "필수 앱",
+      "titleJa": "必須アプリ",
       "descZh": "滴滴（打车）、美团（订餐）、微信（支付+通讯）、支付宝（支付）",
       "descEn": "DiDi (taxi), Meituan (food), WeChat (pay + chat), Alipay (pay)",
-      "descKo": "디디추싱(택시), 메이퇀(배달/식당), 위챗(결제+소통), 알리페이(결제)"
+      "descKo": "디디추싱(택시), 메이퇀(배달/식당), 위챗(결제+소통), 알리페이(결제)",
+      "descJa": "DiDi（タクシー）、美団（フード）、WeChat（決済＋連絡）、支付宝（決済）"
     },
     {
       "icon": "💳",
       "titleZh": "移动支付",
       "titleEn": "Mobile Payment",
       "titleKo": "모바일 결제",
+      "titleJa": "モバイル決済",
       "descZh": "中国绝大多数商家只接受微信或支付宝，建议提前绑定境外信用卡开通。",
       "descEn": "Most shops only accept WeChat Pay or Alipay. Link a foreign credit card before arriving.",
-      "descKo": "중국 대부분의 상점은 위챗페이 또는 알리페이만 사용 가능합니다. 해외 신용카드를 연동해 두세요."
+      "descKo": "중국 대부분의 상점은 위챗페이 또는 알리페이만 사용 가능합니다. 해외 신용카드를 연동해 두세요.",
+      "descJa": "中国のほとんどの店舗はWeChat PayまたはAlipayのみ対応。来中前に外国クレジットカードを紐付けておきましょう。"
     },
     {
       "icon": "🌐",
       "titleZh": "VPN",
       "titleEn": "VPN / Internet",
       "titleKo": "VPN / 인터넷",
+      "titleJa": "VPN / インターネット",
       "descZh": "Google、Instagram、WhatsApp 在中国需要 VPN，请出发前在国内下载并设置好。",
       "descEn": "Google, Instagram, and WhatsApp require a VPN in China. Set it up before arriving.",
-      "descKo": "중국에서 구글, 인스타그램, 왓츠앱은 VPN 없이 사용 불가. 출발 전에 설치해 두세요."
+      "descKo": "중국에서 구글, 인스타그램, 왓츠앱은 VPN 없이 사용 불가. 출발 전에 설치해 두세요.",
+      "descJa": "中国ではGoogle・Instagram・WhatsAppにVPNが必要です。渡航前に設定しておきましょう。"
     },
     {
       "icon": "🌤️",
       "titleZh": "最佳季节",
       "titleEn": "Best Time to Visit",
       "titleKo": "여행 최적 시기",
+      "titleJa": "ベストシーズン",
       "descZh": "春（4–6月）和秋（9–11月）最美，夏季人多闷热，冬季山顶有云海奇景。",
       "descEn": "Spring (Apr–Jun) and autumn (Sep–Nov) are best. Summer is crowded; winter brings stunning sea-of-clouds.",
-      "descKo": "봄(4~6월)과 가을(9~11월)이 최고, 여름은 붐비고 덥고, 겨울 정상에는 운해가 장관."
+      "descKo": "봄(4~6월)과 가을(9~11월)이 최고, 여름은 붐비고 덥고, 겨울 정상에는 운해가 장관.",
+      "descJa": "春（4〜6月）と秋（9〜11月）が最適。夏は混雑・蒸し暑く、冬は山頂で雲海が見られることも。"
     },
     {
       "icon": "🎫",
       "titleZh": "提前购票",
       "titleEn": "Book Tickets Early",
       "titleKo": "사전 티켓 예매",
+      "titleJa": "チケット事前予約",
       "descZh": "玻璃桥等热门景点必须提前网上购票，节假日需提前 3–7 天。",
       "descEn": "The Glass Bridge and other popular spots require advance online booking. Book 3–7 days ahead on holidays.",
-      "descKo": "유리다리 등 인기 명소는 온라인 사전 예매 필수. 성수기에는 3~7일 전에 예약하세요."
+      "descKo": "유리다리 등 인기 명소는 온라인 사전 예매 필수. 성수기에는 3~7일 전에 예약하세요.",
+      "descJa": "ガラス橋など人気スポットはネット予約必須。連休中は3〜7日前に予約を。"
     }
   ]
 }

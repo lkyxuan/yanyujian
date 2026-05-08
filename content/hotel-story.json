@@ -4,13 +4,15 @@
   "hotelDescription": {
     "zh": "岩语间文青旅社坐落于张家界市中心，由热爱砂石画艺术的老板亲手打造。这里不仅是一间青旅，更是一个艺术空间。每一面墙、每一幅画，都在讲述着岩石与自然之间的对话。",
     "en": "Yanyu Jian Art Hostel is nestled in the heart of Zhangjiajie, lovingly crafted by an owner passionate about sand painting art. More than a hostel, it's an art space where every wall tells a story of stone and nature.",
-    "ko": "옌위젠 아트 호스텔은 장가계 시내 중심에 자리하고 있으며, 모래그림 예술을 사랑하는 사장님이 직접 만든 공간입니다. 단순한 호스텔을 넘어 예술 공간으로서, 모든 벽과 그림이 바위와 자연의 이야기를 담고 있습니다."
+    "ko": "옌위젠 아트 호스텔은 장가계 시내 중심에 자리하고 있으며, 모래그림 예술을 사랑하는 사장님이 직접 만든 공간입니다. 단순한 호스텔을 넘어 예술 공간으로서, 모든 벽과 그림이 바위와 자연의 이야기를 담고 있습니다.",
+    "ja": "岩語間アートホステルは張家界の市内中心部に位置し、砂絵アートを愛するオーナーが心を込めて作り上げた空間です。ただのホステルではなく、アートスペースとして、すべての壁と絵が石と自然の対話を語っています。"
   },
 
   "sandPaintingDescription": {
     "zh": "砂石画是一种以天然彩砂为材料，在画板上创作山水、花鸟的艺术形式。老板将张家界的奇峰异石融入画作，每一幅都是独一无二的自然礼物，来了就别忘了带一幅回家。",
     "en": "Sand painting uses natural colored sand to create stunning landscapes. The owner captures Zhangjiajie's iconic peaks and stone formations in each unique piece — the perfect gift to take home.",
-    "ko": "모래그림은 천연 색모래를 재료로 산수화와 꽃새 그림을 그리는 예술입니다. 사장님은 장가계의 기암괴석을 작품에 담아냈으며, 각 작품은 세상에 하나뿐인 자연의 선물입니다. 꼭 하나 가져가세요!"
+    "ko": "모래그림은 천연 색모래를 재료로 산수화와 꽃새 그림을 그리는 예술입니다. 사장님은 장가계의 기암괴석을 작품에 담아냈으며, 각 작품은 세상에 하나뿐인 자연의 선물입니다. 꼭 하나 가져가세요!",
+    "ja": "砂絵は天然の色砂を使って山水や花鳥を描くアート。オーナーは張家界の奇岩を作品に昇華させており、一枚一枚が唯一無二の自然の贈り物です。ぜひ一枚持ち帰ってください。"
   },
 
   "images": [

@@ -5,7 +5,7 @@ import { checkinData } from '@/data/checkin'
 export default function CheckinSection() {
   const t = useTranslations('checkin')
   const locale = useLocale()
-  const lang = locale === 'en' ? 'en' : locale === 'ko' ? 'ko' : 'zh'
+  const lang = locale === 'en' ? 'en' : locale === 'ko' ? 'ko' : locale === 'ja' ? 'ja' : 'zh'
 
   return (
     <section id="checkin" className="py-16 px-4 bg-white/50">
@@ -52,8 +52,9 @@ export default function CheckinSection() {
 
         {/* 浴室说明 */}
         <div className="bg-linen rounded-2xl p-5 mb-6 border border-sand/20">
-          <h3 className="font-serif text-lg text-stone mb-3">🚿 {lang === 'en' ? 'Bathroom' : lang === 'ko' ? '욕실' : '浴室'}</h3>
+          <h3 className="font-serif text-lg text-stone mb-3">🚿 {{ zh: '浴室', en: 'Bathroom', ko: '욕실', ja: '浴室' }[lang]}</h3>
           <div className="space-y-3">
+            <p className="text-stone/60 text-sm">{(checkinData.bathroom as any).location[lang]}</p>
             <div className="flex gap-3">
               <div className="flex-1 bg-white/60 rounded-xl p-3 text-center">
                 <p className="text-xl mb-0.5">♀️</p>
@@ -91,7 +92,7 @@ export default function CheckinSection() {
               className="rounded-xl"
             />
             <p className="text-linen/50 text-xs mt-2">
-              {lang === 'ko' ? '위챗 QR코드 스캔' : lang === 'en' ? 'Scan to add on WeChat' : '扫码添加微信'}
+              {{ zh: '扫码添加微信', en: 'Scan to add on WeChat', ko: '위챗 QR코드 스캔', ja: 'WeChatでスキャン' }[lang]}
             </p>
           </div>
 
@@ -107,7 +108,7 @@ export default function CheckinSection() {
         {/* 房规列表 */}
         <div className="bg-linen rounded-2xl p-5 mt-6 border border-sand/20">
           <h3 className="font-serif text-lg text-stone mb-4">
-            {lang === 'en' ? 'House Rules' : lang === 'ko' ? '하우스 룰' : '温馨提示'}
+            {{ zh: '温馨提示', en: 'House Rules', ko: '하우스 룰', ja: 'ハウスルール' }[lang]}
           </h3>
           <ul className="grid grid-cols-2 gap-3">
             {checkinData.rules.map((rule, i) => (

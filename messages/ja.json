@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "checkin": "チェックイン案内",
+    "story": "ご紹介",
+    "guide": "張家界ガイド"
+  },
+  "hero": {
+    "title": "岩語間",
+    "subtitle": "張家界・砂絵アートホステル",
+    "tagline": "山と川を越えて、すべての出会いは縁です。"
+  },
+  "checkin": {
+    "title": "チェックイン案内",
+    "wifi_name": "Wi-Fi 名",
+    "wifi_password": "Wi-Fi パスワード",
+    "checkin_time": "チェックイン",
+    "checkout_time": "チェックアウト",
+    "curfew": "門限",
+    "contact": "フロント連絡",
+    "contact_fallback": "電話がつながらない場合は、予約プラットフォームよりご連絡ください。"
+  },
+  "story": {
+    "title": "岩語間アートホステルについて",
+    "art_title": "砂絵アート"
+  },
+  "guide": {
+    "title": "張家界旅行ガイド",
+    "attractions": "主要スポット",
+    "transport": "交通案内",
+    "food": "グルメ",
+    "tips": "旅行のヒント",
+    "emergency": "緊急連絡先"
+  },
+  "taxi_card": {
+    "copy": "住所をコピー（運転手に見せてください）",
+    "copied": "コピーしました！"
+  }
+}

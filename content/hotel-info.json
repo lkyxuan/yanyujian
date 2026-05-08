@@ -9,24 +9,33 @@
   "checkinTime": "12:00",
   "checkoutTime": "14:00",
   "bathroom": {
-    "women": { "floors": "2–3F", "zh": "女浴室", "en": "Women's", "ko": "여성용" },
-    "men":   { "floors": "4–5F", "zh": "男浴室", "en": "Men's",   "ko": "남성용" },
+    "location": {
+      "zh": "📍 位于每层楼梯转角处",
+      "en": "📍 Located at the staircase landing on each floor",
+      "ko": "📍 각 층 계단 전환 부분에 위치",
+      "ja": "📍 各階の階段の踊り場にあります"
+    },
+    "women": { "floors": "2–3F", "zh": "女浴室", "en": "Women's", "ko": "여성용", "ja": "女性用" },
+    "men":   { "floors": "4–5F", "zh": "男浴室", "en": "Men's",   "ko": "남성용", "ja": "男性用" },
     "amenities": {
       "zh": "24小时热水 · 洗发水 · 沐浴露",
       "en": "24h hot water · Shampoo · Body wash",
-      "ko": "온수 24시간 · 샴푸 · 바디워시"
+      "ko": "온수 24시간 · 샴푸 · 바디워시",
+      "ja": "24時間お湯 · シャンプー · ボディソープ"
     },
     "towel": {
       "zh": "入住时请向前台领取，一次性浴巾 5 元 / 条",
       "en": "Ask at check-in — disposable towels ¥5 each",
-      "ko": "체크인 시 프런트에서 요청하세요 · 일회용 수건 5위안"
+      "ko": "체크인 시 프런트에서 요청하세요 · 일회용 수건 5위안",
+      "ja": "チェックイン時にフロントへ申し付けください · 使い捨てタオル5元"
     }
   },
 
   "curfew": {
     "zh": "23:00 – 次日 07:00 大门关闭，请走保安室安全门，输入密码 132095# 进出，请轻声轻步勿打扰邻居休息。",
     "en": "23:00 – 07:00 the main gate is locked. Please use the security room side door and enter code 132095# to get in. Be quiet and move carefully.",
-    "ko": "23:00 – 07:00 정문이 잠깁니다. 보안실 옆문을 이용하여 비밀번호 132095# 를 입력하세요. 조용히 이동해 주세요."
+    "ko": "23:00 – 07:00 정문이 잠깁니다. 보안실 옆문을 이용하여 비밀번호 132095# 를 입력하세요. 조용히 이동해 주세요.",
+    "ja": "23:00 – 翌07:00 正門は閉まります。警備室の脇扉からパスコード 132095# を入力してお入りください。静かに移動してください。"
   },
 
   "contact": {
@@ -36,12 +45,12 @@
   },
 
   "rules": [
-    { "icon": "🚭", "zh": "全楼禁烟",           "en": "No smoking in the building",              "ko": "건물 내 금연" },
-    { "icon": "🔇", "zh": "23:00 后请保持安静",  "en": "Quiet hours after 23:00",                 "ko": "23:00 이후 정숙" },
-    { "icon": "🥾", "zh": "入室请换拖鞋",        "en": "Please use provided slippers indoors",    "ko": "실내에서는 슬리퍼를 착용해 주세요" },
-    { "icon": "🗑️", "zh": "请分类投放垃圾",      "en": "Please sort your waste",                  "ko": "쓰레기를 분리수거해 주세요" },
-    { "icon": "🔑", "zh": "离开时请随手关门",    "en": "Please close the door when leaving",      "ko": "외출 시 문을 닫아 주세요" },
-    { "icon": "💧", "zh": "节约用水用电",        "en": "Please conserve water and electricity",   "ko": "물과 전기를 절약해 주세요" }
+    { "icon": "🚭", "zh": "全楼禁烟",           "en": "No smoking in the building",              "ko": "건물 내 금연",              "ja": "館内全面禁煙" },
+    { "icon": "🔇", "zh": "23:00 后请保持安静",  "en": "Quiet hours after 23:00",                 "ko": "23:00 이후 정숙",           "ja": "23:00以降は静かにお過ごしください" },
+    { "icon": "🥾", "zh": "入室请换拖鞋",        "en": "Please use provided slippers indoors",    "ko": "실내에서는 슬리퍼를 착용해 주세요", "ja": "室内ではスリッパをご使用ください" },
+    { "icon": "🗑️", "zh": "请分类投放垃圾",      "en": "Please sort your waste",                  "ko": "쓰레기를 분리수거해 주세요",  "ja": "ゴミの分別にご協力ください" },
+    { "icon": "🔑", "zh": "离开时请随手关门",    "en": "Please close the door when leaving",      "ko": "외출 시 문을 닫아 주세요",   "ja": "外出時はドアをお閉めください" },
+    { "icon": "💧", "zh": "节约用水用电",        "en": "Please conserve water and electricity",   "ko": "물과 전기를 절약해 주세요",  "ja": "節水・節電にご協力ください" }
   ],
 
   "taxiDestinations": [

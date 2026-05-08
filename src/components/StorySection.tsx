@@ -4,7 +4,7 @@ import { storyData } from '@/data/story'
 export default function StorySection() {
   const t = useTranslations('story')
   const locale = useLocale()
-  const lang = locale === 'en' ? 'en' : locale === 'ko' ? 'ko' : 'zh'
+  const lang = locale === 'en' ? 'en' : locale === 'ko' ? 'ko' : locale === 'ja' ? 'ja' : 'zh'
 
   return (
     <section id="story" className="py-16 px-4 bg-linen">
