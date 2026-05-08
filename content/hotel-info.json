@@ -22,7 +22,7 @@
 
   "rules": [
     { "icon": "🚭", "zh": "全楼禁烟",           "en": "No smoking in the building",              "ko": "건물 내 금연" },
-    { "icon": "🔇", "zh": "22:00 后请保持安静",  "en": "Quiet hours after 22:00",                 "ko": "22:00 이후 정숙" },
+    { "icon": "🔇", "zh": "23:00 后请保持安静",  "en": "Quiet hours after 23:00",                 "ko": "23:00 이후 정숙" },
     { "icon": "🥾", "zh": "入室请换拖鞋",        "en": "Please use provided slippers indoors",    "ko": "실내에서는 슬리퍼를 착용해 주세요" },
     { "icon": "🗑️", "zh": "请分类投放垃圾",      "en": "Please sort your waste",                  "ko": "쓰레기를 분리수거해 주세요" },
     { "icon": "🔑", "zh": "离开时请随手关门",    "en": "Please close the door when leaving",      "ko": "외출 시 문을 닫아 주세요" },
