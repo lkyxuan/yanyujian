@@ -45,6 +45,12 @@ export default function CheckinSection() {
           </div>
         </div>
 
+        {/* 浴室说明 */}
+        <div className="bg-linen rounded-2xl p-4 mb-6 border border-sand/20 flex items-start gap-3">
+          <span className="text-2xl">🚿</span>
+          <p className="text-stone/80 text-sm leading-relaxed">{(checkinData.bathroom as any)[lang]}</p>
+        </div>
+
         {/* 联系方式 */}
         <div className="bg-stone rounded-2xl p-5 text-center mb-6">
           <p className="text-linen/60 text-sm mb-4">{t('contact')}</p>
