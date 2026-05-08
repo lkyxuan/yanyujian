@@ -12,7 +12,7 @@
 
   "contact": {
     "wechat": "yanyujian_hostel",
-    "phone": "13107449368",
+    "phone": "+8613107449368",
     "wechatQrImage": "/images/wechat-qr.png"
   },
 
@@ -60,6 +60,6 @@
     { "label": "Fire / 火警",                 "number": "119" },
     { "label": "Tourism Hotline / 旅游投诉",  "number": "12301" },
     { "label": "Zhangjiajie Hospital / 市人民医院", "number": "+86-744-8222120" },
-    { "label": "Hostel / 青旅紧急联系",       "number": "13107449368" }
+    { "label": "Hostel / 青旅紧急联系",       "number": "+8613107449368" }
   ]
 }
