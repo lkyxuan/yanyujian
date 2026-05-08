@@ -17,7 +17,7 @@ export default function CheckinSection() {
           <div className="flex-1 text-center">
             <div className="text-2xl mb-1">📶</div>
             <p className="text-stone/50 text-xs mb-1">{t('wifi_name')}</p>
-            <p className="font-bold text-stone text-sm">{checkinData.wifi.name}</p>
+            <p className="font-bold text-stone text-sm whitespace-pre-line leading-snug">{checkinData.wifi.name}</p>
           </div>
           <div className="w-px h-14 bg-sand/20 mx-2" />
           <div className="flex-1 text-center">
