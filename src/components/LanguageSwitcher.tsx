@@ -27,7 +27,7 @@ export default function LanguageSwitcher() {
           key={code}
           onClick={() => !disabled && switchLocale(code)}
           disabled={disabled}
-          className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors min-h-[32px]
+          className={`px-3 py-2 rounded-full text-xs font-medium transition-colors min-h-[44px] min-w-[44px]
             ${locale === code
               ? 'bg-sand text-white'
               : disabled
