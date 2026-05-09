@@ -46,7 +46,7 @@ export default function GuideSection() {
   const destinations = guideData.destinations as any[]
   const dest = destinations[activeDest]
   const hostelEntry = guideData.taxiDestinations[0]
-  const hostelAddress = hostelEntry?.addressZh ?? '湖南省张家界市岩语间文青旅社'
+  const hostelAddress = hostelEntry?.addressZh ?? '湖南省张家界市岩语间文青旅舍'
 
   return (
     <section id="guide" className="py-16 px-4 bg-white/50">
@@ -131,7 +131,7 @@ export default function GuideSection() {
           )}
         </div>
 
-        {/* 回旅社快捷按钮 */}
+        {/* 回旅舍快捷按钮 */}
         <button
           onClick={() => openDiDi(hostelAddress, 'hostel')}
           className="w-full flex items-center gap-3 bg-linen border border-sand/30 rounded-2xl px-5 py-4 mb-10 active:bg-sand/10 transition-colors"
@@ -139,7 +139,7 @@ export default function GuideSection() {
           <span className="text-2xl">🏠</span>
           <div className="flex-1 text-left">
             <p className="font-bold text-stone text-sm">
-              {{ zh: '回旅社', en: 'Back to Hostel', ko: '호스텔로 돌아가기', ja: 'ホステルへ戻る' }[lang]}
+              {{ zh: '回旅舍', en: 'Back to Hostel', ko: '호스텔로 돌아가기', ja: 'ホステルへ戻る' }[lang]}
             </p>
             <p className="text-stone/50 text-xs mt-0.5">
               {{ zh: '复制地址并打开滴滴', en: 'Copy address & open DiDi', ko: '주소 복사 후 디디 열기', ja: 'アドレスをコピーしてDiDiを開く' }[lang]}
@@ -178,7 +178,7 @@ export default function GuideSection() {
             {/* 去汽车站 */}
             <div className="bg-linen rounded-2xl p-4 border border-sand/20">
               <p className="font-bold text-stone text-sm mb-1">
-                🚌 {{ zh: '旅社 → 市中心汽车站', en: 'Hostel → Central Bus Station', ko: '호스텔 → 버스터미널', ja: 'ホステル → バスターミナル' }[lang]}
+                🚌 {{ zh: '旅舍 → 市中心汽车站', en: 'Hostel → Central Bus Station', ko: '호스텔 → 버스터미널', ja: 'ホステル → バスターミナル' }[lang]}
               </p>
               <p className="text-stone/40 text-xs mb-3">
                 📍 {{ zh: '子午路2号 · 奥莱广场旁', en: '2 Ziwu Rd · near Aolai Plaza', ko: '쯔우로 2번지 · 아오라이 광장 근처', ja: '子午路2号・アウトレット広場隣' }[lang]}

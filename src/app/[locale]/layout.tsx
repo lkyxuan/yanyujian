@@ -19,8 +19,8 @@ const notoSerifSC = Noto_Serif_SC({
 })
 
 export const metadata: Metadata = {
-  title: '岩语间文青旅社 · Yanyu Jian',
-  description: '张家界岩语间文青旅社 | Yanyu Jian Art Hostel in Zhangjiajie',
+  title: '岩语间文青旅舍 · Yanyu Jian',
+  description: '张家界岩语间文青旅舍 | Yanyu Jian Art Hostel in Zhangjiajie',
 }
 
 export default async function LocaleLayout({
