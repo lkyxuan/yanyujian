@@ -41,7 +41,7 @@
       {
         "icon": "🌿",
         "destZh": "武陵源景区（袁家界·吴家峪口）",
-        "destEn": "Wulingyuan Scenic Area (Yuanjiajiee)",
+        "destEn": "Wulingyuan Scenic Area (Yuanjiajie)",
         "destKo": "우링위안 경관구 (위안자제)",
         "destJa": "武陵源景区（袁家界方面）",
         "price": "¥13",
@@ -71,7 +71,7 @@
     ],
     "toBusSchedule": {
       "zh": "线路1 → 森林公园门票站（南门·直达）\n10 分钟一班，首班 06:00 / 末班 18:30，票价 12 元，全程约 30 公里 / 45 分钟，直达门票站。\n\n线路2 → 武陵源景区汽车站（吴家峪口·袁家界方向）\n10 分钟一班，首班 06:00 / 末班 19:30，票价 13 元，全程约 35 公里 / 50 分钟；出站后步行或转 1/2 路公交（1 元）约 2 公里至吴家峪口门票站。\n\n线路3 → 中湖 / 天子山镇（杨家界·天子山方向）\n约一小时一班（按乘客多少灵活发车）。\n• 到杨家界门票站：在中湖下车，全程约 40 公里 / 1 小时 10 分，下车点距门票站约 2 公里，可步行或乘当地车辆。\n• 到天子山门票站：全程约 55 公里 / 1.5–2 小时；从天子山镇入园无需另付索道 / 电梯费，可直达天子山、杨家界、袁家界全区。",
-      "en": "Route 1 → Forest Park South Gate ticket station (direct)\nEvery 10 min, first 06:00 / last 18:30, ¥12/person, ~30 km / 45 min, drops off at the ticket gate.\n\nRoute 2 → Wulingyuan Bus Station (Wujiayukou Gate / Yuanjiajiee)\nEvery 10 min, first 06:00 / last 19:30, ¥13/person, ~35 km / 50 min; then walk or take bus 1/2 (¥1) ~2 km to Wujiayukou ticket gate.\n\nRoute 3 → Zhonghu / Tianzi Mountain Town (Yangjie & Tianzi Mountain)\nRoughly hourly (departs when enough passengers). \n• To Yangjie gate: get off at Zhonghu, ~40 km / 1h10min, then walk or take local transport ~2 km to the gate.\n• To Tianzi Mountain gate: ~55 km / 1.5–2 h; entering here avoids cable car / elevator fees and gives direct access to Tianzi Mountain, Yangjie, and Yuanjiajiee.",
+      "en": "Route 1 → Forest Park South Gate ticket station (direct)\nEvery 10 min, first 06:00 / last 18:30, ¥12/person, ~30 km / 45 min, drops off at the ticket gate.\n\nRoute 2 → Wulingyuan Bus Station (Wujiayukou Gate / Yuanjiajie)\nEvery 10 min, first 06:00 / last 19:30, ¥13/person, ~35 km / 50 min; then walk or take bus 1/2 (¥1) ~2 km to Wujiayukou ticket gate.\n\nRoute 3 → Zhonghu / Tianzi Mountain Town (Yangjie & Tianzi Mountain)\nRoughly hourly (departs when enough passengers). \n• To Yangjie gate: get off at Zhonghu, ~40 km / 1h10min, then walk or take local transport ~2 km to the gate.\n• To Tianzi Mountain gate: ~55 km / 1.5–2 h; entering here avoids cable car / elevator fees and gives direct access to Tianzi Mountain, Yangjie, and Yuanjiajie.",
       "ko": "노선1 → 삼림공원 남문 매표소 (직행)\n10분 간격, 첫차 06:00/막차 18:30, 12위안/인, 약 30km/45분, 매표소 앞 하차.\n\n노선2 → 우링위안 버스터미널 (우자위커우 문·위안자제 방향)\n10분 간격, 첫차 06:00/막차 19:30, 13위안/인, 약 35km/50분; 버스 1/2번(1위안) 환승 또는 도보 약 2km 우자위커우 매표소.\n\n노선3 → 중후/톈쯔산 진 (양자제·톈쯔산 방향)\n약 1시간 간격(만석 시 출발).\n• 양자제 매표소: 중후 하차, 약 40km/1시간10분, 매표소까지 약 2km 도보 또는 현지 차량.\n• 톈쯔산 매표소: 약 55km/1.5~2시간; 케이블카·엘리베이터 비용 없이 톈쯔산·양자제·위안자제 전 구역 직접 입장 가능.",
       "ja": "路線1 → 森林公園南門チケット売り場（直行）\n10分毎、始発06:00/終発18:30、12元/人、約30km/45分、チケット売り場前に停車。\n\n路線2 → 武陵源バスターミナル（呉家峪口門・袁家界方面）\n10分毎、始発06:00/終発19:30、13元/人、約35km/50分；下車後バス1/2番（1元）または徒歩約2kmで呉家峪口チケット売り場へ。\n\n路線3 → 中湖/天子山鎮（楊家界・天子山方面）\n約1時間毎（乗客数により変動）。\n• 楊家界チケット売り場：中湖下車、約40km/1時間10分、チケット売り場まで約2km徒歩または現地車両。\n• 天子山チケット売り場：約55km/1.5〜2時間；ここから入園するとロープウェイ・エレベーター代不要で天子山・楊家界・袁家界全域に直接アクセス可能。"
     }
@@ -86,7 +86,7 @@
       "nameJa": "張家界国家森林公園",
       "tagline": {
         "zh": "哈利路亚山 · 阿凡达取景地 · 进武陵源入口可直达袁家界观景台",
-        "en": "Hallelujah Mountain · Avatar filming location · Enter via Wulingyuan gate for Yuanjiajiee viewpoint",
+        "en": "Hallelujah Mountain · Avatar filming location · Enter via Wulingyuan gate for Yuanjiajie viewpoint",
         "ko": "할렐루야 산 · 아바타 촬영지 · 우링위안 입구로 입장해야 위안자제 전망대",
         "ja": "ハレルヤ山 · アバターのロケ地 · 武陵源入口から袁家界展望台へ"
       },
@@ -98,7 +98,7 @@
           "labelKo": "아바타 루트 (추천)",
           "labelJa": "アバタールート（おすすめ）",
           "detailZh": "汽车站乘武陵源线班车（13元·50分）→ 武陵源吴家峪口入园 → 百龙天梯上袁家界 → 哈利路亚山观景台",
-          "detailEn": "Bus to Wulingyuan (¥13·50min) → enter at Wujiayukou gate → Bailong Elevator up to Yuanjiajiee → Hallelujah Mountain viewpoint",
+          "detailEn": "Bus to Wulingyuan (¥13·50min) → enter at Wujiayukou gate → Bailong Elevator up to Yuanjiajie → Hallelujah Mountain viewpoint",
           "detailKo": "버스로 우링위안 이동(13위안·50분) → 우자위커우 입구 입장 → 바이룽 엘리베이터로 위안자제 → 할렐루야 산 전망대",
           "detailJa": "バスで武陵源へ（13元・50分）→ 呉家峪口入口から入園 → 百龍天梯で袁家界へ → ハレルヤ山展望台",
           "diDiLat": 29.1240,
@@ -160,7 +160,7 @@
           "labelEn": "Taxi to cable car station",
           "labelKo": "케이블카 역까지 택시",
           "labelJa": "ロープウェイ駅までタクシー",
-          "detailZh": "旅社打车约 10–15 分钟，约 10–20 元，到天门山索道下站",
+          "detailZh": "旅舍打车约 10–15 分钟，约 10–20 元，到天门山索道下站",
           "detailEn": "~10–15 min from hostel, ~¥10–20, to Tianmen Mountain cable car lower station",
           "detailKo": "호스텔에서 약 10~15분, 약 10~20위안, 톈먼산 케이블카 하부역까지",
           "detailJa": "ホステルから約10〜15分、約10〜20元、天門山ロープウェイ下駅まで",
